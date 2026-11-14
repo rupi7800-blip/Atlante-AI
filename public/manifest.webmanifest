@@ -1,0 +1,11 @@
+{
+  "name": "Atlante AI",
+  "short_name": "Atlante AI",
+  "description": "Formazione e aggiornamento continuo sulle intelligenze artificiali",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1324",
+  "theme_color": "#0b1324",
+  "lang": "it",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

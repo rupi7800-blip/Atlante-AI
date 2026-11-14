@@ -1,0 +1,26 @@
+{
+  "name": "atlante-ai",
+  "version": "1.0.0",
+  "description": "Piattaforma di formazione e aggiornamento sulle intelligenze artificiali",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
+    "seed": "node --disable-warning=ExperimentalWarning server/seed/run.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "express": "^4.22.3",
+    "fast-xml-parser": "^5.12.1",
+    "nodemailer": "^10.5.0",
+    "web-push": "^4.0.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "private": true
+}
