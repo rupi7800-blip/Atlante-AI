@@ -716,7 +716,7 @@ function sessionSuggestion() {
 async function notify(title, body, url = '#home', system = true) {
   toast(`${title}: ${body}`);
   if (!system || !('Notification' in window) || Notification.permission !== 'granted') return;
-  const opts = { body, icon: 'icon.svg', badge: 'icon.svg', tag: title, data: { url } };
+  const opts = { body, icon: 'icon-192.png', badge: 'icon-192.png', tag: title, data: { url } };
   try { const reg = await navigator.serviceWorker?.getRegistration(); if (reg) await reg.showNotification(title, opts); else new Notification(title, opts); } catch { /* notifiche non disponibili */ }
 }
 function tick() {

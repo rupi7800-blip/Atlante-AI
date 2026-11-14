@@ -2,7 +2,7 @@
 // giornaliero degli aggiornamenti dei corsi anche ad app chiusa (dove il browser supporta
 // la sincronizzazione periodica in background, es. Chrome su Android con app installata).
 const CACHE = 'atlante-studio-1.0.0';
-const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'promptAnalyzer.js', 'aggiornamenti.js', 'contenuti.json', 'icon.svg', 'manifest.webmanifest'];
+const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'promptAnalyzer.js', 'aggiornamenti.js', 'contenuti.json', 'icon.svg', 'icon-192.png', 'apple-touch-icon.png', 'manifest.webmanifest'];
 const STATE = 'atlante-studio-stato';
 
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
@@ -41,7 +41,7 @@ async function backgroundCheck() {
     const due = r.times.filter((t) => mins >= hm(t) && mins - hm(t) <= 120 && !s.firedBg.times.includes(t));
     if (due.length) {
       due.forEach((t) => s.firedBg.times.push(t));
-      await self.registration.showNotification('È ora di studiare 📘', { body: `${r.minutes} minuti${s.suggestion ? `: ${s.suggestion.text}` : ''}`, icon: 'icon.svg', tag: 'studio', data: { url: s.suggestion?.url || '#home' } });
+      await self.registration.showNotification('È ora di studiare 📘', { body: `${r.minutes} minuti${s.suggestion ? `: ${s.suggestion.text}` : ''}`, icon: 'icon-192.png', tag: 'studio', data: { url: s.suggestion?.url || '#home' } });
     }
   }
   // aggiornamenti giornalieri dei corsi
@@ -50,7 +50,7 @@ async function backgroundCheck() {
       const c = await (await fetch('contenuti.json', { cache: 'no-store' })).json();
       s.lastCourseCheck = day;
       if (s.contentVersion && c.version !== s.contentVersion && s.daily.notify && !visible) {
-        await self.registration.showNotification('Corsi aggiornati', { body: 'Ci sono nuovi contenuti o corsi aggiornati in Atlante AI Studio.', icon: 'icon.svg', tag: 'corsi', data: { url: '#novita' } });
+        await self.registration.showNotification('Corsi aggiornati', { body: 'Ci sono nuovi contenuti o corsi aggiornati in Atlante AI Studio.', icon: 'icon-192.png', tag: 'corsi', data: { url: '#novita' } });
       }
       (await caches.open(CACHE)).put('contenuti.json', new Response(JSON.stringify(c), { headers: { 'Content-Type': 'application/json' } }));
     } catch { /* offline */ }
