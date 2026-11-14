@@ -1,0 +1,12 @@
+{
+  "name": "Atlante AI Studio",
+  "short_name": "AI Studio",
+  "description": "Impara a usare ChatGPT, Claude, Gemini e le altre AI: corsi, verifiche, prompt di prova, promemoria e novità",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1324",
+  "theme_color": "#0b1324",
+  "lang": "it",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -29,6 +29,37 @@ npm run dev               # riavvio automatico durante lo sviluppo
 Per le variabili d’ambiente vedi `.env.example` (SMTP per le email, chiavi YouTube/GitHub, ecc.).
 Le notifiche push richiedono HTTPS in produzione (su `localhost` funzionano anche in HTTP).
 
+## Atlante AI Studio – l’app semplice (`studio/`)
+
+Versione leggera della piattaforma: una web app installabile (PWA) senza server né account, pensata per
+imparare a usare le piattaforme AI. I progressi restano sul dispositivo.
+
+| Funzione | Dove |
+|---|---|
+| Scelta tra 20 AI (ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Grok, Le Chat, NotebookLM, Midjourney…), anche più di una insieme, e confronto affiancato | Studia |
+| Scelta dei contenuti (10 argomenti) e del livello; corsi, lezioni e corso introduttivo per ogni AI | Studia |
+| Visualizzazione dei risultati: KPI, andamento delle verifiche, competenze, avanzamento per AI, argomenti da rinforzare | Home |
+| Verifiche (per corso e miste), esercizi con griglia di valutazione, prompt di prova con analisi e invio diretto all’AI | Pratica |
+| Consigli su quale AI usare per un tipo di lavoro (anche descritto a parole) | Consigli |
+| Ricerca automatica di materiale gratuito: web (Wikipedia, YouTube con chiave), database (GitHub, OpenAlex), social e community (Hacker News, Reddit, Mastodon, DEV); biblioteca aggiornata ogni giorno | Risorse |
+| Promemoria: giorni, numero di sessioni al giorno, orari, durata; notifiche, recupero delle sessioni saltate, esportazione nel calendario (.ics) | ⚙︎ Impostazioni |
+| Aggiornamenti giornalieri: novità sulle AI scelte (feed ufficiali, release degli SDK, community) e corsi nuovi o aggiornati | Novità |
+
+I contenuti (`studio/contenuti.json`) sono generati dai dati della piattaforma: dopo aver modificato catalogo,
+curriculum o esercizi in `server/seed/` esegui
+
+```bash
+npm run studio:contenuti   # rigenera contenuti.json; i corsi cambiati salgono di versione
+```
+
+e pubblica: le app installate rilevano i corsi nuovi o aggiornati al controllo giornaliero e lo segnalano.
+Per provarla in locale basta un server statico, ad esempio `npx serve studio` oppure `python3 -m http.server -d studio`.
+La cartella si può pubblicare così com’è su GitHub Pages o su qualunque hosting statico (serve HTTPS per notifiche e installazione).
+
+Limiti da sapere: le notifiche arrivano con l’app aperta o installata (in background solo dove il browser supporta la
+sincronizzazione periodica, es. Chrome su Android); per promemoria sempre puntuali, anche su iPhone, si usa il file .ics
+nel calendario. Alcuni blog ufficiali non consentono la lettura diretta da una web app: in quel caso l’app mostra il link.
+
 ## Struttura
 
 ```

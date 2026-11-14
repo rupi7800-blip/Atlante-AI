@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atlante AI Studio</title>
+<meta name="description" content="App semplice per imparare a usare le piattaforme AI: corsi, verifiche, prompt di prova, promemoria, risorse gratuite e novità.">
+<meta name="theme-color" content="#0b1324">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <button class="brand" data-go="home" aria-label="Home">
+    <img src="icon.svg" alt="" width="30" height="30"><span>Atlante AI <b>Studio</b></span>
+  </button>
+  <div class="top-actions">
+    <span data-update-slot></span>
+    <button class="icon-btn" data-go="impostazioni" aria-label="Promemoria e impostazioni" title="Promemoria e impostazioni">⚙︎</button>
+  </div>
+</header>
+<div id="banner" class="banner" hidden></div>
+<main id="view" tabindex="-1"></main>
+<nav class="tabs" aria-label="Sezioni">
+  <button data-go="home"><i>⌂</i><span>Home</span></button>
+  <button data-go="studia"><i>📘</i><span>Studia</span></button>
+  <button data-go="pratica"><i>✎</i><span>Pratica</span></button>
+  <button data-go="consigli"><i>🧭</i><span>Consigli</span></button>
+  <button data-go="risorse"><i>🔎</i><span>Risorse</span></button>
+  <button data-go="novita"><i>✦</i><span>Novità</span><em id="badge-novita" hidden></em></button>
+</nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="aggiornamenti.js" data-version="1.0.0" defer></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

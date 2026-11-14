@@ -7,7 +7,8 @@
     "start": "node --disable-warning=ExperimentalWarning server/index.js",
     "dev": "node --watch --disable-warning=ExperimentalWarning server/index.js",
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
-    "seed": "node --disable-warning=ExperimentalWarning server/seed/run.js"
+    "seed": "node --disable-warning=ExperimentalWarning server/seed/run.js",
+    "studio:contenuti": "node --disable-warning=ExperimentalWarning scripts/genera-studio.mjs"
   },
   "author": "",
   "license": "UNLICENSED",

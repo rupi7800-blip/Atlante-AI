@@ -96,7 +96,7 @@ function labelField(f) {
   return { piano_gratuito: 'Piano gratuito', piani_pagamento: 'Piani a pagamento', versioni: 'Versioni', prezzo: 'Prezzo' }[f] || f;
 }
 
-function firstStepsContent(tool) {
+export function firstStepsContent(tool) {
   const steps = FIRST_STEPS[tool.category] || FIRST_STEPS.assistente;
   return `
 In questa lezione pratica usi **${tool.name}** direttamente sul servizio ufficiale (${tool.website}).
@@ -128,7 +128,7 @@ function shuffle(arr, seed) {
   return a;
 }
 
-function buildQuestions(tool, others) {
+export function buildQuestions(tool, others) {
   const qs = [];
   const seed = tool.id * 7 + 3;
   // 1. Sviluppatore (fatto)
