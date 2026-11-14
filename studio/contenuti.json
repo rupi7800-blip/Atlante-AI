@@ -1,0 +1,4218 @@
+{
+ "generated": "2026-11-14",
+ "note": "Contenuti generati dalla piattaforma Atlante AI (catalogo, curriculum ed esercizi). Piani e prezzi sono “da verificare” sulle pagine ufficiali.",
+ "topics": [
+  {
+   "slug": "fondamenti",
+   "name": "Fondamenti",
+   "description": "Come funzionano le AI generative, limiti e uso consapevole"
+  },
+  {
+   "slug": "prompting",
+   "name": "Scrittura dei prompt",
+   "description": "Istruzioni chiare, contesto, formato, iterazione"
+  },
+  {
+   "slug": "verifica",
+   "name": "Verifica dei risultati",
+   "description": "Controllo dei fatti, errori tipici, miglioramento"
+  },
+  {
+   "slug": "documenti-dati",
+   "name": "Documenti e dati",
+   "description": "Sintesi, estrazione, analisi di dati"
+  },
+  {
+   "slug": "codice",
+   "name": "Programmazione",
+   "description": "Scrivere, rivedere e testare codice con l’AI"
+  },
+  {
+   "slug": "creativita",
+   "name": "Immagini, audio e video",
+   "description": "Generazione di contenuti multimediali"
+  },
+  {
+   "slug": "ricerca",
+   "name": "Ricerca e studio",
+   "description": "Usare l’AI per cercare, studiare e apprendere"
+  },
+  {
+   "slug": "automazione",
+   "name": "Automazione",
+   "description": "Flussi ripetibili, integrazioni e API"
+  },
+  {
+   "slug": "confronto",
+   "name": "Confronto e scelta",
+   "description": "Valutare e scegliere lo strumento adatto"
+  },
+  {
+   "slug": "professionale",
+   "name": "Uso professionale",
+   "description": "Normativa, policy, qualità"
+  }
+ ],
+ "tools": [
+  {
+   "slug": "chatgpt",
+   "name": "ChatGPT",
+   "developer": "OpenAI",
+   "category": "assistente",
+   "website": "https://chatgpt.com",
+   "docs_url": "https://platform.openai.com/docs",
+   "pricing_url": "https://openai.com/chatgpt/pricing/",
+   "description": "Assistente conversazionale basato sui modelli GPT di OpenAI. Disponibile via web, app desktop e mobile; i modelli sono accessibili anche tramite API per sviluppatori.",
+   "features": [
+    "Conversazione e scrittura",
+    "Analisi di file e immagini caricate",
+    "Ricerca sul web",
+    "Generazione di immagini",
+    "Modalità vocale",
+    "GPT personalizzati",
+    "Progetti per organizzare conversazioni e file"
+   ],
+   "use_cases": [
+    "Scrittura e revisione testi",
+    "Studio e spiegazioni",
+    "Analisi di documenti e dati",
+    "Programmazione",
+    "Brainstorming"
+   ],
+   "strengths": [
+    "Ecosistema molto ampio di funzioni in un unico prodotto",
+    "Ampia disponibilità di guide e community",
+    "API documentata per integrazioni"
+   ],
+   "limitations": [
+    "Può produrre informazioni errate con tono sicuro: verificare i fatti",
+    "Le funzioni disponibili variano tra piano gratuito e a pagamento",
+    "Limiti di utilizzo sui modelli più capaci"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile, con limiti di utilizzo sui modelli più avanzati.",
+     "status": "da_verificare",
+     "source_url": "https://openai.com/chatgpt/pricing/"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Piani individuali (es. Plus, Pro) e per organizzazioni (Business, Enterprise, Edu).",
+     "status": "da_verificare",
+     "source_url": "https://openai.com/chatgpt/pricing/"
+    }
+   ]
+  },
+  {
+   "slug": "claude",
+   "name": "Claude",
+   "developer": "Anthropic",
+   "category": "assistente",
+   "website": "https://claude.ai",
+   "docs_url": "https://docs.claude.com",
+   "pricing_url": "https://claude.com/pricing",
+   "description": "Assistente AI di Anthropic, basato sulla famiglia di modelli Claude. Disponibile via web, app desktop e mobile e tramite API; include strumenti per sviluppatori come Claude Code.",
+   "features": [
+    "Conversazione e scrittura",
+    "Analisi di documenti lunghi e PDF",
+    "Artifact: documenti, codice e pagine interattive",
+    "Progetti con conoscenza condivisa",
+    "Ricerca sul web",
+    "Claude Code per la programmazione"
+   ],
+   "use_cases": [
+    "Analisi e sintesi di documenti lunghi",
+    "Scrittura professionale",
+    "Programmazione",
+    "Ricerca e studio"
+   ],
+   "strengths": [
+    "Finestra di contesto ampia, adatta a documenti lunghi",
+    "Strumenti dedicati alla programmazione",
+    "API documentata"
+   ],
+   "limitations": [
+    "Può commettere errori: verificare le informazioni importanti",
+    "Limiti di utilizzo che variano in base al piano",
+    "Non genera immagini"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile, con limiti di utilizzo.",
+     "status": "da_verificare",
+     "source_url": "https://claude.com/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Piani individuali (es. Pro, Max) e per organizzazioni (Team, Enterprise).",
+     "status": "da_verificare",
+     "source_url": "https://claude.com/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "gemini",
+   "name": "Gemini",
+   "developer": "Google",
+   "category": "assistente",
+   "website": "https://gemini.google.com",
+   "docs_url": "https://ai.google.dev/gemini-api/docs",
+   "pricing_url": null,
+   "description": "Assistente AI di Google basato sui modelli Gemini, integrato con i servizi Google (Gmail, Documenti, Drive). I modelli sono disponibili per sviluppatori tramite Gemini API e Google AI Studio.",
+   "features": [
+    "Conversazione e scrittura",
+    "Integrazione con app Google",
+    "Analisi di file, immagini e video",
+    "Deep Research",
+    "Generazione di immagini",
+    "Gem personalizzati"
+   ],
+   "use_cases": [
+    "Produttività con Google Workspace",
+    "Ricerca approfondita",
+    "Analisi multimodale",
+    "Studio"
+   ],
+   "strengths": [
+    "Integrazione nativa con l’ecosistema Google",
+    "Capacità multimodali (testo, immagini, audio, video)",
+    "Google AI Studio per sperimentare gratuitamente con l’API"
+   ],
+   "limitations": [
+    "Alcune funzioni dipendono dall’abbonamento Google",
+    "Disponibilità delle funzioni variabile per paese e lingua",
+    "Possibili errori fattuali"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile con account Google.",
+     "status": "da_verificare",
+     "source_url": "https://gemini.google.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Funzioni avanzate incluse negli abbonamenti Google AI (Google One).",
+     "status": "da_verificare",
+     "source_url": "https://gemini.google.com"
+    }
+   ]
+  },
+  {
+   "slug": "copilot",
+   "name": "Microsoft Copilot",
+   "developer": "Microsoft",
+   "category": "assistente",
+   "website": "https://copilot.microsoft.com",
+   "docs_url": "https://learn.microsoft.com/copilot/",
+   "pricing_url": null,
+   "description": "Assistente AI di Microsoft disponibile sul web, in Windows, nel browser Edge e integrato nelle applicazioni Microsoft 365 (Word, Excel, PowerPoint, Outlook, Teams).",
+   "features": [
+    "Conversazione e ricerca",
+    "Integrazione con Microsoft 365",
+    "Generazione di immagini",
+    "Modalità vocale",
+    "Agenti per ambito aziendale"
+   ],
+   "use_cases": [
+    "Documenti, fogli di calcolo e presentazioni Office",
+    "Email e riunioni",
+    "Ricerca sul web"
+   ],
+   "strengths": [
+    "Integrazione profonda con gli strumenti Office usati in azienda",
+    "Gestione aziendale di sicurezza e conformità (versione Microsoft 365)"
+   ],
+   "limitations": [
+    "Le funzioni dentro le app Office richiedono licenze specifiche",
+    "Esperienza diversa tra versione consumer e aziendale"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Versione consumer disponibile gratuitamente.",
+     "status": "da_verificare",
+     "source_url": "https://copilot.microsoft.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Funzioni in Microsoft 365 tramite abbonamenti consumer o licenze aziendali Copilot.",
+     "status": "da_verificare",
+     "source_url": "https://copilot.microsoft.com"
+    }
+   ]
+  },
+  {
+   "slug": "perplexity",
+   "name": "Perplexity",
+   "developer": "Perplexity AI",
+   "category": "ricerca",
+   "website": "https://www.perplexity.ai",
+   "docs_url": "https://docs.perplexity.ai",
+   "pricing_url": null,
+   "description": "Motore di risposta basato su AI che cerca sul web e risponde citando le fonti consultate. Offre anche un’API per sviluppatori.",
+   "features": [
+    "Risposte con citazioni delle fonti",
+    "Ricerca approfondita",
+    "Spazi per organizzare ricerche",
+    "Scelta del modello (piani a pagamento)",
+    "API"
+   ],
+   "use_cases": [
+    "Ricerca di informazioni aggiornate",
+    "Rassegne su un argomento",
+    "Verifica rapida delle fonti"
+   ],
+   "strengths": [
+    "Mostra le fonti di ogni risposta, facilitando la verifica",
+    "Orientato alla ricerca di informazioni recenti"
+   ],
+   "limitations": [
+    "La qualità dipende dalle fonti trovate",
+    "Le citazioni vanno comunque aperte e controllate"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile, con un numero limitato di ricerche avanzate.",
+     "status": "da_verificare",
+     "source_url": "https://www.perplexity.ai"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Piani a pagamento (es. Pro) e per aziende.",
+     "status": "da_verificare",
+     "source_url": "https://www.perplexity.ai"
+    }
+   ]
+  },
+  {
+   "slug": "deepseek",
+   "name": "DeepSeek",
+   "developer": "DeepSeek (Hangzhou DeepSeek AI)",
+   "category": "assistente",
+   "website": "https://www.deepseek.com",
+   "docs_url": "https://api-docs.deepseek.com",
+   "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+   "description": "Assistente e famiglia di modelli linguistici sviluppati dall’azienda cinese DeepSeek, noti per la pubblicazione di modelli con pesi aperti e per i costi API contenuti.",
+   "features": [
+    "Chat via web e app",
+    "Modalità di ragionamento",
+    "Ricerca web",
+    "Modelli con pesi scaricabili",
+    "API"
+   ],
+   "use_cases": [
+    "Ragionamento matematico e logico",
+    "Programmazione",
+    "Sperimentazione con modelli aperti"
+   ],
+   "strengths": [
+    "Modelli con pesi aperti eseguibili anche in locale",
+    "API a basso costo"
+   ],
+   "limitations": [
+    "Valutare con attenzione privacy e luogo di trattamento dei dati nel servizio online",
+    "Possibili restrizioni su alcuni argomenti"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Chat gratuita via web e app.",
+     "status": "da_verificare",
+     "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "API a consumo (prezzo per token).",
+     "status": "da_verificare",
+     "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "grok",
+   "name": "Grok",
+   "developer": "xAI",
+   "category": "assistente",
+   "website": "https://grok.com",
+   "docs_url": "https://docs.x.ai",
+   "pricing_url": null,
+   "description": "Assistente AI sviluppato da xAI, disponibile come app autonoma e integrato nella piattaforma X, con accesso ai contenuti pubblicati su X.",
+   "features": [
+    "Conversazione",
+    "Ricerca su web e su X",
+    "Generazione di immagini",
+    "Modalità di ragionamento",
+    "API"
+   ],
+   "use_cases": [
+    "Monitoraggio di discussioni e tendenze su X",
+    "Domande generali",
+    "Ricerca"
+   ],
+   "strengths": [
+    "Accesso a contenuti in tempo reale da X"
+   ],
+   "limitations": [
+    "I contenuti dei social possono essere non verificati",
+    "Funzioni variabili in base all’abbonamento"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile con limiti di utilizzo.",
+     "status": "da_verificare",
+     "source_url": "https://grok.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti Grok/X Premium e API a consumo.",
+     "status": "da_verificare",
+     "source_url": "https://grok.com"
+    }
+   ]
+  },
+  {
+   "slug": "mistral",
+   "name": "Mistral AI (Le Chat)",
+   "developer": "Mistral AI",
+   "category": "assistente",
+   "website": "https://mistral.ai",
+   "docs_url": "https://docs.mistral.ai",
+   "pricing_url": "https://mistral.ai/pricing",
+   "description": "Azienda francese che sviluppa modelli linguistici, sia proprietari sia con pesi aperti. Le Chat è il suo assistente conversazionale; la piattaforma \"La Plateforme\" offre le API.",
+   "features": [
+    "Le Chat: conversazione, ricerca web, analisi documenti",
+    "Generazione di immagini",
+    "Modelli con pesi aperti",
+    "API e modelli per il codice"
+   ],
+   "use_cases": [
+    "Assistente generico",
+    "Soluzioni con requisiti europei di localizzazione dei dati",
+    "Esecuzione di modelli in locale"
+   ],
+   "strengths": [
+    "Azienda europea",
+    "Diversi modelli con licenza aperta"
+   ],
+   "limitations": [
+    "Ecosistema di integrazioni meno esteso dei grandi provider statunitensi"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Le Chat disponibile gratuitamente con limiti.",
+     "status": "da_verificare",
+     "source_url": "https://mistral.ai/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Le Chat Pro / Team / Enterprise; API a consumo.",
+     "status": "da_verificare",
+     "source_url": "https://mistral.ai/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "meta-ai",
+   "name": "Meta AI",
+   "developer": "Meta",
+   "category": "assistente",
+   "website": "https://www.meta.ai",
+   "docs_url": "https://www.llama.com",
+   "pricing_url": null,
+   "description": "Assistente AI di Meta integrato in WhatsApp, Instagram, Facebook e Messenger, basato sui modelli Llama. I modelli Llama sono distribuiti con pesi scaricabili secondo la licenza di Meta.",
+   "features": [
+    "Chat nelle app Meta e sul web",
+    "Generazione di immagini",
+    "Modelli Llama scaricabili"
+   ],
+   "use_cases": [
+    "Domande rapide nelle app di messaggistica",
+    "Sviluppo con modelli Llama in locale"
+   ],
+   "strengths": [
+    "Disponibile dentro app già usate quotidianamente",
+    "Modelli Llama utilizzabili in proprie applicazioni (secondo licenza)"
+   ],
+   "limitations": [
+    "Disponibilità delle funzioni variabile per paese",
+    "Licenza Llama con condizioni specifiche, non open source in senso stretto"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Gratuito nelle app Meta.",
+     "status": "da_verificare",
+     "source_url": "https://www.meta.ai"
+    }
+   ]
+  },
+  {
+   "slug": "notebooklm",
+   "name": "NotebookLM",
+   "developer": "Google",
+   "category": "studio",
+   "website": "https://notebooklm.google.com",
+   "docs_url": "https://support.google.com/notebooklm",
+   "pricing_url": null,
+   "description": "Strumento di Google per studiare e ricercare a partire dalle proprie fonti (PDF, documenti, siti, video): le risposte si basano sui materiali caricati e citano i passaggi di riferimento.",
+   "features": [
+    "Risposte basate solo sulle fonti caricate, con citazioni",
+    "Panoramiche audio in stile podcast",
+    "Guide di studio, FAQ, mappe mentali",
+    "Quiz e flashcard"
+   ],
+   "use_cases": [
+    "Studio di documenti e dispense",
+    "Ricerca su un insieme di fonti",
+    "Preparazione di riunioni ed esami"
+   ],
+   "strengths": [
+    "Ancoraggio alle fonti dell’utente: riduce le risposte inventate",
+    "Ottimo per l’apprendimento"
+   ],
+   "limitations": [
+    "Non sostituisce la lettura critica delle fonti",
+    "Limiti sul numero e dimensione delle fonti per taccuino"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile gratuitamente con account Google.",
+     "status": "da_verificare",
+     "source_url": "https://notebooklm.google.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Limiti più alti negli abbonamenti Google AI e in Google Workspace.",
+     "status": "da_verificare",
+     "source_url": "https://notebooklm.google.com"
+    }
+   ]
+  },
+  {
+   "slug": "cursor",
+   "name": "Cursor",
+   "developer": "Anysphere",
+   "category": "codice",
+   "website": "https://cursor.com",
+   "docs_url": "https://docs.cursor.com",
+   "pricing_url": "https://cursor.com/pricing",
+   "description": "Editor di codice basato su VS Code con AI integrata: completamento, modifiche su più file, chat sul progetto e agenti che eseguono attività di programmazione.",
+   "features": [
+    "Completamento del codice",
+    "Chat con il contesto del progetto",
+    "Agente per modifiche multi-file",
+    "Scelta tra modelli di diversi provider"
+   ],
+   "use_cases": [
+    "Sviluppo software",
+    "Refactoring",
+    "Comprensione di codice esistente"
+   ],
+   "strengths": [
+    "Comprende l’intero progetto",
+    "Compatibile con estensioni di VS Code"
+   ],
+   "limitations": [
+    "Richiede di saper valutare il codice prodotto",
+    "Uso intensivo dei modelli premium soggetto a limiti"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Piano gratuito (Hobby) con limiti.",
+     "status": "da_verificare",
+     "source_url": "https://cursor.com/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Piani Pro e per team/aziende.",
+     "status": "da_verificare",
+     "source_url": "https://cursor.com/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "github-copilot",
+   "name": "GitHub Copilot",
+   "developer": "GitHub (Microsoft)",
+   "category": "codice",
+   "website": "https://github.com/features/copilot",
+   "docs_url": "https://docs.github.com/copilot",
+   "pricing_url": "https://github.com/features/copilot/plans",
+   "description": "Assistente di programmazione di GitHub integrato negli editor (VS Code, Visual Studio, JetBrains e altri) e in GitHub.com: completamento, chat, revisione e agente di codifica.",
+   "features": [
+    "Completamento del codice nell’editor",
+    "Copilot Chat",
+    "Modalità agente",
+    "Revisione delle pull request",
+    "Scelta del modello"
+   ],
+   "use_cases": [
+    "Scrittura di codice",
+    "Spiegazione di codice",
+    "Test e revisione"
+   ],
+   "strengths": [
+    "Integrazione con GitHub e con i principali editor",
+    "Gestione per organizzazioni"
+   ],
+   "limitations": [
+    "Suggerimenti da verificare per correttezza e sicurezza",
+    "Limiti mensili sulle richieste premium"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Piano Free con limiti mensili; gratuito per studenti e manutentori open source verificati.",
+     "status": "da_verificare",
+     "source_url": "https://github.com/features/copilot/plans"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Piani Pro, Pro+, Business, Enterprise.",
+     "status": "da_verificare",
+     "source_url": "https://github.com/features/copilot/plans"
+    }
+   ]
+  },
+  {
+   "slug": "replit",
+   "name": "Replit AI",
+   "developer": "Replit",
+   "category": "codice",
+   "website": "https://replit.com",
+   "docs_url": "https://docs.replit.com",
+   "pricing_url": "https://replit.com/pricing",
+   "description": "Ambiente di sviluppo nel browser con un agente AI che crea e pubblica applicazioni a partire da una descrizione in linguaggio naturale.",
+   "features": [
+    "Agente che costruisce app da descrizioni",
+    "Editor online",
+    "Database e hosting integrati",
+    "Pubblicazione delle app"
+   ],
+   "use_cases": [
+    "Prototipi rapidi",
+    "Imparare a programmare",
+    "Piccole applicazioni web"
+   ],
+   "strengths": [
+    "Nessuna installazione: tutto nel browser",
+    "Dal prompt all’app pubblicata"
+   ],
+   "limitations": [
+    "Costo legato all’uso dell’agente",
+    "Progetti complessi richiedono competenze tecniche"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Piano gratuito con funzioni AI limitate.",
+     "status": "da_verificare",
+     "source_url": "https://replit.com/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti con crediti di utilizzo per l’agente.",
+     "status": "da_verificare",
+     "source_url": "https://replit.com/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "midjourney",
+   "name": "Midjourney",
+   "developer": "Midjourney, Inc.",
+   "category": "immagini",
+   "website": "https://www.midjourney.com",
+   "docs_url": "https://docs.midjourney.com",
+   "pricing_url": null,
+   "description": "Servizio di generazione di immagini da descrizioni testuali, noto per la qualità estetica. Utilizzabile dal sito web e tramite Discord; supporta anche la generazione di brevi video.",
+   "features": [
+    "Generazione di immagini da testo",
+    "Varianti e upscale",
+    "Riferimenti di stile e di personaggio",
+    "Editor di immagini",
+    "Animazione in video"
+   ],
+   "use_cases": [
+    "Illustrazione e concept art",
+    "Immagini per marketing e social",
+    "Moodboard"
+   ],
+   "strengths": [
+    "Qualità estetica elevata",
+    "Ampia community con esempi di prompt"
+   ],
+   "limitations": [
+    "Nessuna API pubblica ufficiale",
+    "Gestione dei diritti d’uso dipendente dal piano: leggere i termini"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Nessun piano gratuito stabile (verificare eventuali prove).",
+     "status": "da_verificare",
+     "source_url": "https://www.midjourney.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti Basic, Standard, Pro, Mega.",
+     "status": "da_verificare",
+     "source_url": "https://www.midjourney.com"
+    }
+   ]
+  },
+  {
+   "slug": "ideogram",
+   "name": "Ideogram",
+   "developer": "Ideogram AI",
+   "category": "immagini",
+   "website": "https://ideogram.ai",
+   "docs_url": null,
+   "pricing_url": null,
+   "description": "Generatore di immagini da testo particolarmente efficace nel rendere testo leggibile all’interno delle immagini (loghi, poster, grafiche).",
+   "features": [
+    "Generazione di immagini",
+    "Testo tipografico nelle immagini",
+    "Modifica e ricolorazione",
+    "API"
+   ],
+   "use_cases": [
+    "Poster e locandine",
+    "Loghi e grafiche con scritte",
+    "Contenuti social"
+   ],
+   "strengths": [
+    "Resa del testo nelle immagini"
+   ],
+   "limitations": [
+    "Le immagini generate gratuitamente possono essere pubbliche: verificare le impostazioni"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile con crediti limitati.",
+     "status": "da_verificare",
+     "source_url": "https://ideogram.ai"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti con più crediti e generazioni private.",
+     "status": "da_verificare",
+     "source_url": "https://ideogram.ai"
+    }
+   ]
+  },
+  {
+   "slug": "leonardo",
+   "name": "Leonardo AI",
+   "developer": "Leonardo.Ai (gruppo Canva)",
+   "category": "immagini",
+   "website": "https://leonardo.ai",
+   "docs_url": null,
+   "pricing_url": null,
+   "description": "Piattaforma di generazione di immagini e video con modelli multipli, strumenti di editing e possibilità di addestrare modelli personalizzati.",
+   "features": [
+    "Generazione di immagini con diversi modelli",
+    "Canvas per editing",
+    "Generazione video",
+    "Modelli personalizzati",
+    "API"
+   ],
+   "use_cases": [
+    "Asset per videogiochi e design",
+    "Marketing",
+    "Illustrazioni"
+   ],
+   "strengths": [
+    "Molti modelli e stili in un unico strumento",
+    "Controllo fine sui parametri"
+   ],
+   "limitations": [
+    "Sistema a crediti da comprendere per stimare i costi"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Crediti giornalieri gratuiti.",
+     "status": "da_verificare",
+     "source_url": "https://leonardo.ai"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti con crediti mensili.",
+     "status": "da_verificare",
+     "source_url": "https://leonardo.ai"
+    }
+   ]
+  },
+  {
+   "slug": "runway",
+   "name": "Runway",
+   "developer": "Runway AI, Inc.",
+   "category": "video",
+   "website": "https://runwayml.com",
+   "docs_url": "https://help.runwayml.com",
+   "pricing_url": "https://runwayml.com/pricing",
+   "description": "Piattaforma di generazione ed editing video con AI: da testo o immagine a video, strumenti di montaggio e modifica.",
+   "features": [
+    "Generazione video da testo e immagini",
+    "Strumenti di editing video con AI",
+    "Generazione di immagini",
+    "API"
+   ],
+   "use_cases": [
+    "Video brevi per social e pubblicità",
+    "Pre-visualizzazione cinematografica",
+    "Effetti visivi"
+   ],
+   "strengths": [
+    "Specializzazione nel video",
+    "Strumenti professionali per creativi"
+   ],
+   "limitations": [
+    "Generazione video costosa in crediti",
+    "Clip di durata limitata"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Crediti iniziali gratuiti una tantum.",
+     "status": "da_verificare",
+     "source_url": "https://runwayml.com/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti Standard, Pro, Unlimited, Enterprise.",
+     "status": "da_verificare",
+     "source_url": "https://runwayml.com/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "elevenlabs",
+   "name": "ElevenLabs",
+   "developer": "ElevenLabs",
+   "category": "audio",
+   "website": "https://elevenlabs.io",
+   "docs_url": "https://elevenlabs.io/docs",
+   "pricing_url": "https://elevenlabs.io/pricing",
+   "description": "Piattaforma di sintesi vocale e audio con AI: voci realistiche in molte lingue, doppiaggio, clonazione della voce (con consenso), effetti sonori e agenti vocali.",
+   "features": [
+    "Sintesi vocale multilingue",
+    "Clonazione della voce",
+    "Doppiaggio",
+    "Effetti sonori",
+    "Trascrizione",
+    "API"
+   ],
+   "use_cases": [
+    "Voci per video e podcast",
+    "Audiolibri",
+    "Accessibilità",
+    "Assistenti vocali"
+   ],
+   "strengths": [
+    "Qualità e naturalezza delle voci",
+    "Supporto a molte lingue"
+   ],
+   "limitations": [
+    "Uso della voce di terzi solo con consenso",
+    "Caratteri mensili limitati per piano"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Disponibile con quota mensile limitata e attribuzione richiesta.",
+     "status": "da_verificare",
+     "source_url": "https://elevenlabs.io/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti a livelli in base ai caratteri/minuti.",
+     "status": "da_verificare",
+     "source_url": "https://elevenlabs.io/pricing"
+    }
+   ]
+  },
+  {
+   "slug": "suno",
+   "name": "Suno",
+   "developer": "Suno, Inc.",
+   "category": "audio",
+   "website": "https://suno.com",
+   "docs_url": "https://help.suno.com",
+   "pricing_url": null,
+   "description": "Servizio che genera brani musicali completi (strumentale e voce) a partire da una descrizione testuale o da testi forniti dall’utente.",
+   "features": [
+    "Generazione di canzoni da testo",
+    "Testi personalizzati",
+    "Modifica ed estensione dei brani"
+   ],
+   "use_cases": [
+    "Jingle e musica per contenuti",
+    "Prototipi musicali",
+    "Uso creativo personale"
+   ],
+   "strengths": [
+    "Brani completi in pochi secondi"
+   ],
+   "limitations": [
+    "Diritti d’uso commerciale dipendenti dal piano: leggere i termini",
+    "Controllo limitato sui dettagli musicali"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Crediti giornalieri gratuiti per uso non commerciale.",
+     "status": "da_verificare",
+     "source_url": "https://suno.com"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti con uso commerciale e più crediti.",
+     "status": "da_verificare",
+     "source_url": "https://suno.com"
+    }
+   ]
+  },
+  {
+   "slug": "hugging-face",
+   "name": "Hugging Face",
+   "developer": "Hugging Face",
+   "category": "piattaforma",
+   "website": "https://huggingface.co",
+   "docs_url": "https://huggingface.co/docs",
+   "pricing_url": "https://huggingface.co/pricing",
+   "description": "Piattaforma e community di riferimento per modelli, dataset e demo di AI con pesi aperti; offre librerie open source (Transformers, Diffusers) e corsi gratuiti.",
+   "features": [
+    "Hub di modelli e dataset",
+    "Spaces: demo interattive",
+    "Librerie open source",
+    "Corsi gratuiti",
+    "Inferenza tramite provider"
+   ],
+   "use_cases": [
+    "Trovare e provare modelli aperti",
+    "Imparare il machine learning",
+    "Pubblicare modelli e demo"
+   ],
+   "strengths": [
+    "Il più grande archivio pubblico di modelli aperti",
+    "Corsi gratuiti di qualità"
+   ],
+   "limitations": [
+    "Orientato a un pubblico tecnico",
+    "Qualità dei modelli della community molto variabile"
+   ],
+   "facts": [
+    {
+     "field": "piano_gratuito",
+     "value": "Hub e corsi gratuiti.",
+     "status": "da_verificare",
+     "source_url": "https://huggingface.co/pricing"
+    },
+    {
+     "field": "piani_pagamento",
+     "value": "Abbonamenti Pro, Team/Enterprise e calcolo a consumo.",
+     "status": "da_verificare",
+     "source_url": "https://huggingface.co/pricing"
+    }
+   ]
+  }
+ ],
+ "courses": [
+  {
+   "slug": "fondamenti-ai-generativa",
+   "kind": "base",
+   "title": "Come funzionano gli assistenti AI",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [],
+   "description": "Cosa sono i modelli linguistici, cosa sanno fare, perché sbagliano e come proteggere i propri dati.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "fond-cosa-e-llm",
+     "title": "Che cos’è un modello linguistico",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Un **modello linguistico di grandi dimensioni** (LLM) è un programma addestrato su enormi quantità di testo per prevedere, parola dopo parola, la continuazione più plausibile di un testo.\n\nAssistenti come ChatGPT, Claude, Gemini o Le Chat sono costruiti su questi modelli e aggiungono un'interfaccia di conversazione e strumenti (ricerca web, lettura di file, generazione di immagini).\n\n### Cosa ne consegue in pratica\n- Il modello **non consulta un archivio di fatti**: genera testo plausibile. Spesso è corretto, ma non sempre.\n- Le conoscenze del modello si fermano a una **data di aggiornamento** (cutoff). Per eventi recenti servono strumenti di ricerca.\n- La risposta dipende molto **da come chiedi**: contesto, esempi e istruzioni chiare cambiano il risultato.\n- Due richieste uguali possono dare risposte diverse: la generazione ha una componente di variabilità.\n\n### Parole chiave\n- **Prompt**: il testo che invii al modello.\n- **Contesto (finestra di contesto)**: quanto testo il modello può considerare insieme (conversazione + documenti).\n- **Token**: unità di testo usate dal modello; una parola italiana corrisponde in media a più di un token."
+    },
+    {
+     "slug": "fond-limiti",
+     "title": "Allucinazioni e limiti",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Si chiama **allucinazione** una risposta che sembra sicura ma contiene informazioni false: citazioni inesistenti, numeri inventati, riferimenti normativi sbagliati.\n\n### Quando il rischio è più alto\n- Domande su **dati precisi** (date, cifre, nomi, fonti bibliografiche).\n- Argomenti **di nicchia** o molto recenti.\n- Richieste che **presuppongono** qualcosa di falso (\"Perché la legge X del 2019 dice…?\").\n- Calcoli lunghi eseguiti \"a mente\" dal modello senza strumenti.\n\n### Come ridurlo\n1. Chiedi di **indicare le fonti** e aprile davvero.\n2. Fornisci tu i documenti di riferimento e chiedi di rispondere **solo** in base a quelli.\n3. Autorizza il modello a dire **\"non lo so\"**.\n4. Per i calcoli usa strumenti di analisi dati o verifica con un foglio di calcolo.\n\n> Regola d'oro: l'AI è un collaboratore veloce, non una fonte. La responsabilità del risultato resta tua."
+    },
+    {
+     "slug": "fond-privacy",
+     "title": "Privacy, dati e uso responsabile",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "Prima di incollare qualcosa in un assistente AI chiediti: **posso condividere questo dato con un servizio esterno?**\n\n### Buone pratiche\n- Non inserire **dati personali di terzi**, dati sanitari, credenziali o segreti aziendali in servizi non approvati dalla tua organizzazione.\n- Controlla nelle impostazioni del servizio se le conversazioni possono essere **usate per l'addestramento** e come disattivarlo.\n- I piani per aziende in genere offrono garanzie contrattuali diverse da quelli personali: leggi i termini.\n- Anonimizza i documenti (nomi, codici, indirizzi) quando possibile.\n\n### Uso responsabile dei contenuti generati\n- Dichiara l'uso dell'AI quando è richiesto (scuola, editoria, lavoro).\n- Per immagini, voci e musica verifica le **condizioni di licenza** del piano che usi.\n- Non usare voci o volti di persone reali senza consenso."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Che cosa fa fondamentalmente un modello linguistico quando risponde?",
+     "options": [
+      "Cerca la risposta in un database di fatti verificati",
+      "Genera il testo più plausibile in base all’addestramento e al contesto",
+      "Copia il testo da un sito web",
+      "Esegue sempre una ricerca su Internet"
+     ],
+     "answer": 1,
+     "explanation": "Un LLM genera testo plausibile prevedendo la continuazione: per questo può sbagliare con tono sicuro.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Che cos’è un’“allucinazione” di un modello AI?",
+     "options": [
+      "Un errore di connessione",
+      "Un’immagine generata",
+      "Un’informazione falsa presentata come vera",
+      "Una risposta troppo lunga"
+     ],
+     "answer": 2,
+     "explanation": "Le allucinazioni sono contenuti inventati ma presentati con sicurezza.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Quale di queste azioni riduce maggiormente il rischio di risposte inventate?",
+     "options": [
+      "Scrivere il prompt tutto in maiuscolo",
+      "Fornire i documenti di riferimento e chiedere di rispondere solo in base a quelli",
+      "Chiedere la stessa cosa più volte finché la risposta piace",
+      "Usare frasi molto brevi"
+     ],
+     "answer": 1,
+     "explanation": "Ancorare la risposta a fonti fornite è una delle tecniche più efficaci.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Perché un assistente può non conoscere un evento della settimana scorsa?",
+     "options": [
+      "Perché ha una data limite di aggiornamento delle conoscenze",
+      "Perché censura le notizie",
+      "Perché l’italiano non è supportato",
+      "Perché gli eventi recenti sono a pagamento"
+     ],
+     "answer": 0,
+     "explanation": "Il modello conosce ciò che era nei dati fino al cutoff; per il resto servono strumenti di ricerca.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Quale comportamento è corretto con i dati personali di un cliente?",
+     "options": [
+      "Incollarli in qualsiasi assistente per velocizzare",
+      "Usarli solo in servizi approvati e, quando possibile, anonimizzarli",
+      "Tradurli in inglese prima di inviarli",
+      "Inviarli solo di notte"
+     ],
+     "answer": 1,
+     "explanation": "I dati di terzi vanno trattati solo con strumenti autorizzati e minimizzati.",
+     "skill": "fondamenti"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "4402de4c59"
+  },
+  {
+   "slug": "prompt-efficaci",
+   "kind": "base",
+   "title": "Scrivere prompt efficaci",
+   "level": "principiante",
+   "topic": "prompting",
+   "categories": [],
+   "description": "La struttura di un buon prompt: ruolo, contesto, compito, formato, vincoli ed esempi.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "prompt-anatomia",
+     "title": "Anatomia di un prompt",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Un prompt efficace risponde alle domande che faresti a un collega prima di iniziare un lavoro.\n\n| Elemento | Domanda | Esempio |\n|---|---|---|\n| **Contesto** | Chi sono, per cosa serve? | \"Sono responsabile acquisti di una PMI…\" |\n| **Compito** | Cosa devi fare esattamente? | \"Confronta le tre offerte allegate…\" |\n| **Input** | Su quali dati lavori? | Testo delimitato tra `\"\"\"` |\n| **Formato** | Come voglio il risultato? | \"Tabella con colonne: fornitore, prezzo, tempi\" |\n| **Vincoli** | Limiti e regole | \"Massimo 200 parole, tono formale\" |\n| **Criteri di qualità** | Come capisco che è fatto bene? | \"Segnala i dati mancanti invece di inventarli\" |\n\n### Prima e dopo\n**Debole:** `Scrivimi una mail per un fornitore.`\n\n**Efficace:**\n```\nSono responsabile acquisti di un'azienda di arredamento. Scrivi una mail al fornitore\nRossi Srl per chiedere di anticipare la consegna dell'ordine 4512 dal 20 al 10 marzo.\nTono cortese ma deciso, massimo 120 parole, chiudi chiedendo conferma entro venerdì.\n```"
+    },
+    {
+     "slug": "prompt-contesto-esempi",
+     "title": "Contesto ed esempi",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Il modello non conosce la tua situazione: tutto ciò che non scrivi, lo **indovina**.\n\n### Dare contesto utile\n- **Destinatario** del risultato (cliente, studente, dirigente).\n- **Scopo** (decidere, informare, convincere).\n- **Livello** di competenza del lettore.\n\n### Usare esempi (few-shot)\nSe vuoi uno stile o un formato preciso, mostralo. Uno o due esempi valgono più di molte spiegazioni.\n\n```\nClassifica i commenti dei clienti come POSITIVO, NEGATIVO o NEUTRO.\nEsempio: \"Consegna veloce, prodotto ottimo\" → POSITIVO\nEsempio: \"Il pacco è arrivato\" → NEUTRO\nCommento: \"Ho dovuto chiamare tre volte l'assistenza\" →\n```\n\n### Delimitare l'input\nQuando incolli un testo, separalo dalle istruzioni con delimitatori (`\"\"\"`, tag come `<documento>`), così il modello non confonde il materiale con le istruzioni."
+    },
+    {
+     "slug": "prompt-formato",
+     "title": "Controllare il formato dell’output",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "Chiedere esplicitamente il formato rende il risultato subito utilizzabile.\n\n### Formati utili\n- **Tabella** con colonne nominate.\n- **Elenco puntato** con un numero preciso di punti.\n- **JSON** con campi specificati, se il risultato va in un altro programma.\n- **Struttura a sezioni**: \"Sintesi – Dettagli – Rischi – Prossimi passi\".\n\n### Lunghezza e tono\nIndica parole o righe massime, registro (formale, divulgativo), lingua.\n\n### Esercizio mentale\nRiscrivi questo prompt aggiungendo formato e vincoli: *\"Spiegami la fotosintesi.\"*\nPossibile versione: *\"Spiega la fotosintesi a uno studente di terza media in 5 punti elenco, massimo 15 parole ciascuno, poi proponi 2 domande di verifica.\"*"
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Quale elemento manca nel prompt \"Fammi un riassunto\"?",
+     "options": [
+      "Il compito",
+      "Il testo da riassumere, lo scopo e il formato",
+      "La parola \"per favore\"",
+      "Nulla, è completo"
+     ],
+     "answer": 1,
+     "explanation": "Mancano input, scopo, lunghezza e formato desiderati.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "A cosa servono i delimitatori come \"\"\" o <documento>?",
+     "options": [
+      "A rendere il prompt più elegante",
+      "A separare il materiale da elaborare dalle istruzioni",
+      "A ridurre il costo",
+      "A tradurre il testo"
+     ],
+     "answer": 1,
+     "explanation": "I delimitatori evitano che il modello confonda dati e istruzioni.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "Che cos’è il “few-shot prompting”?",
+     "options": [
+      "Usare pochi caratteri",
+      "Fornire alcuni esempi del risultato desiderato",
+      "Inviare il prompt più volte",
+      "Usare solo domande sì/no"
+     ],
+     "answer": 1,
+     "explanation": "Mostrare esempi guida il modello verso stile e formato voluti.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "Quale prompt specifica meglio il formato?",
+     "options": [
+      "\"Dimmi i pro e contro\"",
+      "\"Elenca 3 pro e 3 contro in una tabella a due colonne, max 10 parole per cella\"",
+      "\"Fai un’analisi\"",
+      "\"Scrivi bene\""
+     ],
+     "answer": 1,
+     "explanation": "Numero di elementi, struttura e lunghezza sono espliciti.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "Perché conviene indicare il destinatario del testo?",
+     "options": [
+      "Per adattare lessico, livello di dettaglio e tono",
+      "Perché è obbligatorio",
+      "Per far rispondere più velocemente",
+      "Non serve"
+     ],
+     "answer": 0,
+     "explanation": "Il destinatario determina registro e livello di approfondimento.",
+     "skill": "prompting"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "5c713daff4"
+  },
+  {
+   "slug": "verifica-iterazione",
+   "kind": "base",
+   "title": "Verificare e migliorare le risposte",
+   "level": "principiante",
+   "topic": "verifica",
+   "categories": [],
+   "description": "Controllare i fatti, riconoscere gli errori tipici e iterare fino al risultato voluto.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "verifica-fatti",
+     "title": "Controllare i fatti",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "### Lista di controllo rapida\n1. **Numeri e date**: confrontali con la fonte originale.\n2. **Citazioni e riferimenti**: apri ogni link, cerca ogni titolo citato. Le fonti inventate sono un errore frequente.\n3. **Nomi e ruoli**: verifica persone, aziende, norme.\n4. **Coerenza interna**: i totali tornano? Le conclusioni seguono dai dati?\n5. **Data**: l'informazione è ancora valida oggi?\n\n### Chiedere al modello di aiutarti a verificare\n- \"Elenca le affermazioni della tua risposta che richiedono verifica e indica come verificarle.\"\n- \"Quali parti della risposta sono più incerte?\"\n\nQuesto **non sostituisce** la verifica, ma ti indica dove guardare."
+    },
+    {
+     "slug": "verifica-iterare",
+     "title": "Iterare: dal primo risultato a quello giusto",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Il primo risultato raramente è quello definitivo. Lavora per **iterazioni mirate**.\n\n### Feedback efficace\n- **Specifico**: \"Il secondo paragrafo è troppo tecnico, semplificalo per un pubblico non esperto\" invece di \"migliora\".\n- **Uno o due cambiamenti per volta**, così capisci cosa ha funzionato.\n- **Conserva ciò che va bene**: \"Mantieni la struttura, cambia solo il tono\".\n\n### Quando ricominciare da capo\nSe la conversazione è lunga e il modello continua a ripetere errori, apri una **nuova conversazione** con un prompt riscritto che incorpora ciò che hai imparato.\n\n### Salva i prompt che funzionano\nUn prompt riuscito è un **modello riutilizzabile**: conservalo nel Laboratorio prompt con note su quando usarlo."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "L’AI cita un articolo scientifico con autori e anno. Cosa fai?",
+     "options": [
+      "Lo riporto così com’è",
+      "Cerco l’articolo per verificarne l’esistenza e il contenuto",
+      "Chiedo all’AI se è sicura e mi fido della risposta",
+      "Cambio l’anno"
+     ],
+     "answer": 1,
+     "explanation": "Le citazioni vanno sempre verificate alla fonte: possono essere inventate.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Quale feedback è più efficace per migliorare una risposta?",
+     "options": [
+      "\"Non va bene\"",
+      "\"Riscrivi meglio\"",
+      "\"Accorcia l’introduzione a 2 frasi e aggiungi un esempio concreto nel terzo punto\"",
+      "\"Prova ancora\""
+     ],
+     "answer": 2,
+     "explanation": "Il feedback specifico produce cambiamenti prevedibili.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Quando conviene aprire una nuova conversazione?",
+     "options": [
+      "Mai",
+      "Quando la conversazione è lunga e gli errori si ripetono",
+      "Dopo ogni messaggio",
+      "Solo il lunedì"
+     ],
+     "answer": 1,
+     "explanation": "Un contesto “sporco” può perpetuare errori: meglio ripartire con un prompt migliorato.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Chiedere al modello quali parti della risposta sono incerte serve a…",
+     "options": [
+      "Sostituire la verifica",
+      "Individuare dove concentrare la verifica",
+      "Ottenere una risposta certificata",
+      "Nulla"
+     ],
+     "answer": 1,
+     "explanation": "È un aiuto per orientare il controllo, non una garanzia.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "25129cd2f2"
+  },
+  {
+   "slug": "documenti-e-dati",
+   "kind": "base",
+   "title": "Lavorare con documenti e dati",
+   "level": "intermedio",
+   "topic": "documenti-dati",
+   "categories": [
+    "assistente",
+    "studio",
+    "ricerca"
+   ],
+   "description": "Riassumere documenti lunghi, estrarre informazioni strutturate e analizzare dati.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "doc-sintesi",
+     "title": "Sintetizzare documenti lunghi",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "### Strategia in tre passaggi\n1. **Mappa**: \"Elenca le sezioni del documento con una riga di descrizione ciascuna.\"\n2. **Estrazione**: \"Per ogni sezione estrai: dati numerici, decisioni, rischi. Indica il numero di pagina.\"\n3. **Sintesi**: \"Con le informazioni estratte, scrivi un rapporto di una pagina per il direttore.\"\n\nSpezzare il lavoro riduce le omissioni e rende verificabile ogni passaggio.\n\n### Chiedi riferimenti puntuali\n\"Per ogni affermazione indica la pagina o la sezione.\" Così puoi controllare velocemente.\n\n### Attenzione\n- Documenti scansionati (immagini) possono essere letti male: controlla tabelle e numeri.\n- Se il documento supera la capacità del servizio, dividilo in parti.\n- Strumenti come NotebookLM sono progettati per rispondere **solo** in base alle fonti caricate."
+    },
+    {
+     "slug": "doc-estrazione",
+     "title": "Estrarre dati in tabelle",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Molti lavori consistono nel trasformare testo libero in **dati strutturati**.\n\n```\nDal testo tra <contratti> estrai una tabella con colonne:\nFornitore | Data inizio | Durata (mesi) | Importo annuo (€) | Penali\nSe un dato non è presente scrivi \"N/D\". Non dedurre valori non scritti.\n<contratti>\n...\n</contratti>\n```\n\n### Punti chiave\n- **Colonne definite** in anticipo.\n- **Regola per i dati mancanti** (\"N/D\"): impedisce che il modello li inventi.\n- Formato numerico esplicito (es. \"importi senza simbolo, punto come separatore decimale\") se poi incolli in un foglio di calcolo.\n- Controlla a campione alcune righe con il documento originale."
+    },
+    {
+     "slug": "doc-analisi-dati",
+     "title": "Analizzare dati con l’AI",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Alcuni assistenti possono **eseguire codice** per analizzare file (CSV, Excel): in quel caso i calcoli sono fatti da un programma, non \"a memoria\".\n\n### Flusso consigliato\n1. Carica il file e chiedi una **descrizione dei dati**: colonne, tipi, valori mancanti.\n2. Formula domande precise: \"Calcola il fatturato mensile per regione nel 2025 e mostra un grafico a linee.\"\n3. Chiedi di **mostrare il metodo** (formule o codice usato).\n4. **Verifica** un paio di risultati con il tuo foglio di calcolo.\n\n### Errori frequenti\n- Interpretazione sbagliata di date e separatori decimali (virgola italiana vs punto).\n- Righe di totale incluse nei calcoli.\n- Conclusioni causali tratte da semplici correlazioni."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Perché è utile dividere la sintesi di un documento lungo in più passaggi?",
+     "options": [
+      "Per spendere di più",
+      "Per ridurre omissioni e rendere verificabile ogni passaggio",
+      "Perché i modelli non leggono i PDF",
+      "Non è utile"
+     ],
+     "answer": 1,
+     "explanation": "Mappa → estrazione → sintesi rende il lavoro controllabile.",
+     "skill": "documenti-dati"
+    },
+    {
+     "prompt": "Nell’estrazione di dati, a cosa serve la regola “se manca scrivi N/D”?",
+     "options": [
+      "A rendere la tabella più corta",
+      "A impedire che il modello inventi valori mancanti",
+      "A tradurre i dati",
+      "A ordinare le righe"
+     ],
+     "answer": 1,
+     "explanation": "Dare un’alternativa esplicita riduce le invenzioni.",
+     "skill": "documenti-dati"
+    },
+    {
+     "prompt": "Quando l’assistente esegue codice per analizzare un CSV, i calcoli…",
+     "options": [
+      "Sono stimati dal modello a memoria",
+      "Sono eseguiti da un programma, ma vanno comunque verificati a campione",
+      "Sono sempre sbagliati",
+      "Non si possono controllare"
+     ],
+     "answer": 1,
+     "explanation": "Il codice rende i calcoli affidabili, ma l’interpretazione dei dati può essere errata.",
+     "skill": "documenti-dati"
+    },
+    {
+     "prompt": "Quale errore è tipico con dati italiani?",
+     "options": [
+      "Il modello non legge i numeri",
+      "Confusione tra virgola e punto come separatore decimale",
+      "I CSV non sono supportati",
+      "Le date sono sempre corrette"
+     ],
+     "answer": 1,
+     "explanation": "I separatori decimali e i formati data vanno specificati.",
+     "skill": "documenti-dati"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "d006a9c430"
+  },
+  {
+   "slug": "prompt-avanzati",
+   "kind": "base",
+   "title": "Tecniche avanzate di prompting",
+   "level": "intermedio",
+   "topic": "prompting",
+   "categories": [
+    "assistente",
+    "ricerca",
+    "codice",
+    "studio"
+   ],
+   "description": "Scomposizione dei compiti, criteri di valutazione, modelli riutilizzabili.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "adv-scomposizione",
+     "title": "Scomporre i compiti complessi",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "I compiti complessi riescono meglio se divisi in **passi espliciti**.\n\n### Due modi\n1. **In un solo prompt**: \"Procedi così: 1) individua i requisiti; 2) proponi tre soluzioni; 3) confrontale in tabella; 4) raccomanda la migliore motivando.\"\n2. **In una catena di prompt**: ogni passaggio è un messaggio separato e tu controlli il risultato intermedio prima di proseguire.\n\nLa catena è più lenta ma permette di **correggere subito** gli errori di un passaggio.\n\n### Chiedere un ragionamento verificabile\nPer problemi logici o decisionali chiedi di esporre le **assunzioni** e i **passaggi** prima della conclusione. Molti modelli recenti hanno modalità di \"ragionamento\" dedicate per questi casi."
+    },
+    {
+     "slug": "adv-criteri",
+     "title": "Ruoli, vincoli e criteri di successo",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "### Il ruolo\n\"Agisci come revisore legale\" orienta lessico e attenzione, ma **non** conferisce competenze reali: il risultato va comunque verificato da un esperto.\n\n### Criteri di successo\nDichiara come valuterai il risultato:\n```\nIl testo è riuscito se:\n- un cliente senza competenze tecniche lo capisce;\n- contiene il prezzo e la scadenza;\n- non supera 150 parole.\nPrima di rispondere, controlla di rispettare tutti i criteri.\n```\n\n### Vincoli negativi con alternativa\nInvece di solo \"non usare termini tecnici\", scrivi \"usa parole di uso comune; se un termine tecnico è indispensabile, spiegalo tra parentesi\"."
+    },
+    {
+     "slug": "adv-template",
+     "title": "Modelli di prompt riutilizzabili",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "Quando un'attività si ripete, trasforma il prompt in un **modello** con segnaposto.\n\n```\nCONTESTO: {chi sono e a cosa serve}\nCOMPITO: Analizza {documento} e produci {risultato}.\nFORMATO: {tabella/elenco/sezioni}, massimo {n} parole.\nVINCOLI: {tono}, {lingua}. Se un'informazione manca, scrivi \"da verificare\".\nINPUT:\n\"\"\"\n{testo}\n\"\"\"\n```\n\nMolti assistenti permettono di salvare istruzioni permanenti (istruzioni personalizzate, progetti, Gem, GPT personalizzati): sono il luogo naturale per i modelli che usi spesso."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Qual è il vantaggio principale di una catena di prompt rispetto a un unico prompt?",
+     "options": [
+      "È più veloce",
+      "Permette di controllare e correggere ogni risultato intermedio",
+      "Costa sempre meno",
+      "Non ci sono vantaggi"
+     ],
+     "answer": 1,
+     "explanation": "Ogni passaggio può essere verificato prima di proseguire.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "Assegnare un ruolo (“agisci come avvocato”) al modello…",
+     "options": [
+      "Lo rende un avvocato abilitato",
+      "Orienta stile e attenzione, ma il risultato va verificato da un esperto",
+      "È vietato",
+      "Non ha alcun effetto"
+     ],
+     "answer": 1,
+     "explanation": "Il ruolo influenza la risposta, non garantisce competenza.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "Come formulare meglio il vincolo “non usare termini tecnici”?",
+     "options": [
+      "Ripeterlo tre volte",
+      "Indicare cosa fare invece: parole comuni e spiegazione tra parentesi dei termini indispensabili",
+      "Scriverlo in inglese",
+      "Toglierlo"
+     ],
+     "answer": 1,
+     "explanation": "Un vincolo con alternativa è più facile da rispettare.",
+     "skill": "prompting"
+    },
+    {
+     "prompt": "A cosa servono i segnaposto in un modello di prompt?",
+     "options": [
+      "A rendere il prompt riutilizzabile cambiando solo le parti variabili",
+      "A nascondere informazioni",
+      "A ridurre i token",
+      "A tradurre"
+     ],
+     "answer": 0,
+     "explanation": "I segnaposto separano struttura fissa e contenuto variabile.",
+     "skill": "prompting"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "4849905bd9"
+  },
+  {
+   "slug": "contenuti-multimediali",
+   "kind": "base",
+   "title": "Generare immagini, audio e video",
+   "level": "intermedio",
+   "topic": "creativita",
+   "categories": [
+    "immagini",
+    "video",
+    "audio"
+   ],
+   "description": "Descrivere efficacemente ciò che si vuole ottenere, iterare sulle varianti, rispettare diritti e licenze.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "media-descrivere",
+     "title": "Descrivere un’immagine: soggetto, stile, composizione",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Un prompt per immagini funziona come un **brief per un illustratore**.\n\n| Elemento | Esempio |\n|---|---|\n| Soggetto | \"una ciclista in salita su una strada di montagna\" |\n| Ambiente e luce | \"all'alba, nebbia leggera, luce calda laterale\" |\n| Stile | \"fotografia documentaristica\" / \"illustrazione acquerello\" |\n| Composizione | \"inquadratura dal basso, soggetto a sinistra, ampio cielo\" |\n| Formato | \"orizzontale 16:9\" |\n\n### Consigli\n- Sii **concreto**: oggetti, colori, materiali, non aggettivi vaghi (\"bellissimo\").\n- Ogni servizio ha parametri propri (proporzioni, stile, riferimenti di immagine): consulta la documentazione ufficiale del tuo strumento.\n- Per il **testo dentro l'immagine** scrivi il testo esatto tra virgolette; alcuni strumenti sono più bravi di altri (es. Ideogram è noto per questo)."
+    },
+    {
+     "slug": "media-iterare",
+     "title": "Iterare su varianti e audio/video",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "### Iterazione visiva\n1. Genera più varianti con lo stesso prompt.\n2. Scegli la più vicina e **modifica una variabile per volta** (luce, stile, inquadratura).\n3. Usa le funzioni di modifica locale (inpainting) per correggere dettagli.\n\n### Video\nDescrivi anche il **movimento**: della camera (\"carrellata lenta in avanti\") e del soggetto. Le clip generate sono brevi: progetta storie come sequenze di inquadrature.\n\n### Audio e voce\n- Per la sintesi vocale cura punteggiatura e pause: influenzano il ritmo.\n- Per la musica descrivi genere, strumenti, tempo, atmosfera e struttura (strofa, ritornello)."
+    },
+    {
+     "slug": "media-diritti",
+     "title": "Diritti, licenze e uso responsabile",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "- **Licenze**: i diritti d'uso commerciale dei contenuti generati dipendono dai termini del servizio e spesso dal **piano** sottoscritto. Leggili prima di usare un contenuto per un cliente.\n- **Persone reali**: non generare immagini o voci realistiche di persone reali senza consenso; molti servizi lo vietano.\n- **Marchi e opere protette**: evitare di imitare marchi o personaggi protetti.\n- **Trasparenza**: segnala i contenuti generati con AI quando il contesto lo richiede (es. comunicazione pubblica, giornalismo)."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Quale prompt per immagini è più efficace?",
+     "options": [
+      "\"Una bella foto\"",
+      "\"Una ciclista in salita all’alba, nebbia leggera, fotografia documentaristica, inquadratura dal basso, formato 16:9\"",
+      "\"Fai qualcosa di creativo\"",
+      "\"Bici\""
+     ],
+     "answer": 1,
+     "explanation": "Soggetto, luce, stile, composizione e formato sono espliciti.",
+     "skill": "creativita"
+    },
+    {
+     "prompt": "Come conviene iterare su un’immagine quasi corretta?",
+     "options": [
+      "Cambiare tutto il prompt",
+      "Modificare una variabile per volta o correggere localmente",
+      "Ricominciare con un altro strumento",
+      "Accettarla com’è"
+     ],
+     "answer": 1,
+     "explanation": "Cambiare una variabile alla volta rende l’effetto prevedibile.",
+     "skill": "creativita"
+    },
+    {
+     "prompt": "Da cosa dipendono i diritti d’uso commerciale di un’immagine generata?",
+     "options": [
+      "Sono sempre liberi",
+      "Dai termini del servizio e spesso dal piano sottoscritto",
+      "Dalla risoluzione",
+      "Dal formato del file"
+     ],
+     "answer": 1,
+     "explanation": "Ogni servizio stabilisce le proprie condizioni.",
+     "skill": "creativita"
+    },
+    {
+     "prompt": "Nel prompt per un video cosa è importante aggiungere rispetto a un’immagine?",
+     "options": [
+      "Il numero di pixel",
+      "La descrizione del movimento di camera e soggetto",
+      "Il nome del file",
+      "Niente"
+     ],
+     "answer": 1,
+     "explanation": "Il movimento è parte essenziale del brief video.",
+     "skill": "creativita"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "efb5542980"
+  },
+  {
+   "slug": "programmare-con-ai",
+   "kind": "base",
+   "title": "Programmare con l’AI",
+   "level": "intermedio",
+   "topic": "codice",
+   "categories": [
+    "codice",
+    "assistente"
+   ],
+   "description": "Specificare bene il compito, revisionare il codice generato, testarlo e proteggere la sicurezza.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "code-specificare",
+     "title": "Specificare il compito di programmazione",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "### Informazioni da fornire sempre\n- **Linguaggio e versione**, framework, librerie già usate.\n- **Comportamento atteso** con esempi di input/output.\n- **Vincoli**: prestazioni, compatibilità, stile del progetto.\n- **Codice esistente** rilevante (o, negli strumenti integrati nell'editor, i file giusti nel contesto).\n\n```\nLinguaggio: Python 3.12, solo libreria standard.\nScrivi una funzione parse_importo(s: str) -> float che converte importi italiani\n(\"1.234,56 €\", \"€ 12\", \"0,5\") in float. Solleva ValueError per input non validi.\nIncludi 6 test con pytest, compresi i casi limite.\n```\n\n### Strumenti diversi, usi diversi\n- **Chat** (ChatGPT, Claude, Gemini): spiegazioni, frammenti, progettazione.\n- **Nell'editor** (GitHub Copilot, Cursor): completamento e modifiche nel progetto.\n- **Agenti** (modalità agente, Claude Code, Replit Agent): eseguono più passaggi in autonomia; richiedono revisione attenta."
+    },
+    {
+     "slug": "code-revisione",
+     "title": "Rivedere e testare il codice generato",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Il codice generato **può sembrare corretto e non esserlo**.\n\n### Lista di revisione\n1. **Leggi e capisci** ogni parte prima di usarla.\n2. **Esegui i test**; aggiungine per i casi limite.\n3. Verifica che le **librerie esistano** e siano quelle giuste (i nomi inventati sono un errore noto, sfruttabile anche per attacchi).\n4. **Sicurezza**: input non validati, query SQL concatenate, segreti scritti nel codice, permessi eccessivi.\n5. **Licenze**: attenzione a frammenti copiati da progetti con licenze incompatibili.\n\n### Chiedere una revisione\n\"Rivedi questo codice cercando bug, problemi di sicurezza e casi limite non gestiti. Per ogni problema indica la riga e una correzione.\""
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Quale informazione è essenziale in una richiesta di codice?",
+     "options": [
+      "Il colore dell’editor",
+      "Linguaggio/versione, comportamento atteso con esempi e vincoli",
+      "Il nome del programmatore",
+      "Nessuna"
+     ],
+     "answer": 1,
+     "explanation": "Senza questi dati il modello deve indovinare.",
+     "skill": "codice"
+    },
+    {
+     "prompt": "Il codice generato supera la compilazione. È sufficiente?",
+     "options": [
+      "Sì",
+      "No: va compreso, testato e controllato per sicurezza e casi limite",
+      "Sì, se è breve",
+      "Sì, se l’ha scritto un agente"
+     ],
+     "answer": 1,
+     "explanation": "Compilare non significa funzionare correttamente o in sicurezza.",
+     "skill": "codice"
+    },
+    {
+     "prompt": "Perché verificare che le librerie suggerite esistano davvero?",
+     "options": [
+      "Perché i modelli possono inventare nomi di pacchetti, con rischi anche di sicurezza",
+      "Per risparmiare spazio",
+      "Non serve",
+      "Per la licenza del sistema operativo"
+     ],
+     "answer": 0,
+     "explanation": "Pacchetti inesistenti suggeriti possono essere registrati da malintenzionati.",
+     "skill": "codice"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "10871b4182"
+  },
+  {
+   "slug": "ricerca-e-studio",
+   "kind": "base",
+   "title": "Usare l’AI per ricerca e studio",
+   "level": "intermedio",
+   "topic": "ricerca",
+   "categories": [
+    "ricerca",
+    "studio",
+    "assistente"
+   ],
+   "description": "Ricerca con fonti, studio attivo, ripasso e autovalutazione con l’AI.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "ric-fonti",
+     "title": "Ricerca con fonti verificabili",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "Gli strumenti con **ricerca web** (Perplexity, modalità di ricerca di ChatGPT, Claude, Gemini e Copilot) restituiscono risposte con link alle fonti.\n\n### Metodo\n1. Formula la domanda con **periodo e ambito**: \"Novità normative 2026 in Italia sulla fatturazione elettronica, solo fonti istituzionali.\"\n2. Apri le fonti principali e verifica che **dicano davvero** ciò che la risposta riporta.\n3. Preferisci fonti **primarie** (enti, documentazione ufficiale, articoli scientifici) a quelle secondarie.\n4. Annota data e link di ogni informazione usata.\n\nLe funzioni di **ricerca approfondita** producono rapporti lunghi consultando molte fonti: utili per una panoramica, da verificare nei punti chiave."
+    },
+    {
+     "slug": "ric-studio-attivo",
+     "title": "Studio attivo con l’AI",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "L'AI è più utile come **tutor** che come scorciatoia.\n\n### Tecniche\n- **Spiegazione a livelli**: \"Spiegami X come a un principiante, poi come a un esperto.\"\n- **Interrogazione**: \"Fammi 5 domande su X, una alla volta, e correggimi.\"\n- **Tecnica di Feynman**: spiega tu l'argomento e chiedi all'AI di individuare errori e lacune.\n- **Ripasso distanziato**: rivedi gli argomenti a intervalli crescenti (1, 3, 7, 14 giorni). La piattaforma programma ripassi in base ai tuoi risultati.\n- **Studio sulle tue fonti**: strumenti come NotebookLM generano quiz e guide **dai tuoi materiali**."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Una risposta con link alle fonti è…",
+     "options": [
+      "Automaticamente corretta",
+      "Più facile da verificare, ma le fonti vanno aperte e lette",
+      "Sempre inventata",
+      "Inutile"
+     ],
+     "answer": 1,
+     "explanation": "Le fonti permettono la verifica, che resta necessaria.",
+     "skill": "ricerca"
+    },
+    {
+     "prompt": "Quale uso dell’AI favorisce di più l’apprendimento?",
+     "options": [
+      "Copiare le risposte",
+      "Farsi interrogare e correggere, spiegare e farsi segnalare le lacune",
+      "Chiedere solo riassunti",
+      "Non usarla"
+     ],
+     "answer": 1,
+     "explanation": "Lo studio attivo produce apprendimento duraturo.",
+     "skill": "ricerca"
+    },
+    {
+     "prompt": "Che cosa sono le fonti primarie?",
+     "options": [
+      "Le prime trovate su un motore di ricerca",
+      "Documenti originali: enti, documentazione ufficiale, articoli scientifici",
+      "I social network",
+      "I riassunti dell’AI"
+     ],
+     "answer": 1,
+     "explanation": "Le fonti primarie sono l’origine dell’informazione.",
+     "skill": "ricerca"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "344f6e6e92"
+  },
+  {
+   "slug": "automazione-processi",
+   "kind": "base",
+   "title": "Automatizzare processi con l’AI",
+   "level": "avanzato",
+   "topic": "automazione",
+   "categories": [
+    "assistente",
+    "codice",
+    "piattaforma"
+   ],
+   "description": "Dal prompt al processo ripetibile: integrazioni, API, costi e controllo qualità.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "auto-flussi",
+     "title": "Da attività ripetuta a flusso automatico",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "### Quando automatizzare\nUn'attività è candidata se è **frequente**, ha **input simili**, un **formato di uscita definito** e un modo per **controllare** il risultato.\n\n### Livelli di automazione\n1. **Prompt salvato** e riusato a mano.\n2. **Assistente personalizzato** (istruzioni permanenti + documenti di riferimento).\n3. **Strumenti no-code** che collegano app e modelli AI (es. piattaforme di automazione con passaggi AI).\n4. **Integrazione via API** in un programma proprio.\n\n### Progettare il controllo umano\nDecidi **dove** una persona verifica (es. prima dell'invio di una mail al cliente) e cosa succede se il risultato non supera i controlli."
+    },
+    {
+     "slug": "auto-api",
+     "title": "API, costi e limiti",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Le API permettono ai programmi di usare i modelli. Concetti chiave:\n\n- **Chiave API**: credenziale segreta; non va mai inserita nel codice pubblico o nel browser.\n- **Costo a token**: si paga per token in ingresso e in uscita; il prezzo varia per modello. Consulta sempre la pagina prezzi ufficiale del provider.\n- **Limiti di frequenza** (rate limit): numero massimo di richieste per minuto.\n- **Output strutturato**: molti provider permettono di ottenere JSON conforme a uno schema, utile per le integrazioni.\n- **Registrazione e monitoraggio**: conserva log di richieste, costi ed errori.\n\n> Accedere a un corso su un'AI non dà accesso alle sue API: servono un account sviluppatore e un metodo di pagamento presso il provider."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Quale attività è più adatta all’automazione?",
+     "options": [
+      "Un compito unico e mai ripetuto",
+      "Un’attività frequente, con input simili, output definito e controllabile",
+      "Una decisione strategica aziendale",
+      "Nessuna"
+     ],
+     "answer": 1,
+     "explanation": "Frequenza, regolarità e verificabilità rendono l’automazione utile.",
+     "skill": "automazione"
+    },
+    {
+     "prompt": "Dove NON deve mai trovarsi una chiave API?",
+     "options": [
+      "In una variabile d’ambiente del server",
+      "In un gestore di segreti",
+      "Nel codice pubblicato o eseguito nel browser",
+      "Cifrata nel database"
+     ],
+     "answer": 2,
+     "explanation": "Nel browser o nel codice pubblico la chiave è esposta a chiunque.",
+     "skill": "automazione"
+    },
+    {
+     "prompt": "Come si paga tipicamente l’uso di un modello via API?",
+     "options": [
+      "Canone fisso illimitato",
+      "A token in ingresso e in uscita, con prezzo per modello",
+      "Per minuto di connessione",
+      "È sempre gratuito"
+     ],
+     "answer": 1,
+     "explanation": "Il prezzo per token varia da modello a modello.",
+     "skill": "automazione"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "57861a93aa"
+  },
+  {
+   "slug": "confrontare-scegliere",
+   "kind": "base",
+   "title": "Confrontare e scegliere gli strumenti AI",
+   "level": "avanzato",
+   "topic": "confronto",
+   "categories": [],
+   "description": "Criteri oggettivi, test comparativi personali, lettura critica dei benchmark.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "conf-criteri",
+     "title": "Criteri di scelta",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "| Criterio | Domande |\n|---|---|\n| **Capacità** | Fa ciò che serve (testo, immagini, codice, ricerca, file)? |\n| **Qualità sul tuo compito** | Come va su esempi reali del tuo lavoro? |\n| **Integrazioni** | Si collega agli strumenti che usi già? |\n| **Dati e privacy** | Dove vengono trattati i dati? Sono usati per l'addestramento? |\n| **Costo** | Piano gratuito sufficiente? Costo per utente o per uso? |\n| **Affidabilità** | Disponibilità, supporto, stabilità del fornitore |\n| **Licenze** | Diritti sui contenuti generati |\n\n### Benchmark\nI benchmark pubblici misurano compiti specifici (matematica, codice, comprensione). Sono utili come **indicazione**, ma:\n- possono non rappresentare il tuo caso d'uso;\n- cambiano rapidamente con le nuove versioni;\n- vanno letti con **data e fonte**."
+    },
+    {
+     "slug": "conf-test",
+     "title": "Test comparativo personale",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "Il modo più affidabile per scegliere è **provare sullo stesso compito**.\n\n### Protocollo\n1. Prepara **3–5 compiti reali** e rappresentativi.\n2. Usa **lo stesso prompt** in ogni strumento.\n3. Definisci prima i **criteri di valutazione** (correttezza, completezza, stile, tempo).\n4. Valuta i risultati, se possibile **senza sapere** quale strumento li ha prodotti.\n5. Registra **data e versione/piano** usati: i risultati cambiano nel tempo.\n\nLa pagina **Confronta AI** della piattaforma mostra le caratteristiche documentate degli strumenti con data di verifica; il laboratorio pratico include un esercizio di confronto guidato."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Perché i benchmark pubblici non bastano per scegliere?",
+     "options": [
+      "Sono sempre falsi",
+      "Misurano compiti specifici che possono non rappresentare il tuo uso e invecchiano rapidamente",
+      "Sono a pagamento",
+      "Bastano sempre"
+     ],
+     "answer": 1,
+     "explanation": "Vanno integrati con test sul proprio caso d’uso.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "In un test comparativo corretto…",
+     "options": [
+      "Si usano prompt diversi per ogni strumento",
+      "Si usa lo stesso prompt e criteri definiti prima",
+      "Si giudica in base al marchio",
+      "Si prova un solo compito"
+     ],
+     "answer": 1,
+     "explanation": "Stesse condizioni e criteri prefissati rendono il confronto equo.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Perché registrare data e versione del test?",
+     "options": [
+      "Per burocrazia",
+      "Perché modelli e funzioni cambiano e il risultato può non valere più",
+      "Non serve",
+      "Per il copyright"
+     ],
+     "answer": 1,
+     "explanation": "Gli strumenti evolvono rapidamente.",
+     "skill": "confronto"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "5645bff4b6"
+  },
+  {
+   "slug": "uso-professionale",
+   "kind": "base",
+   "title": "Uso professionale responsabile",
+   "level": "professionale",
+   "topic": "professionale",
+   "categories": [],
+   "description": "Quadro normativo europeo, policy aziendali, qualità e misurazione dei risultati.",
+   "tools": [],
+   "lessons": [
+    {
+     "slug": "pro-normativa",
+     "title": "Quadro normativo: AI Act e GDPR",
+     "minutes": 15,
+     "kind": "teoria",
+     "content": "### Regolamento europeo sull'intelligenza artificiale (AI Act)\nIl **Regolamento (UE) 2024/1689** è entrato in vigore il 1° agosto 2024 con applicazione **graduale** degli obblighi negli anni successivi. Adotta un approccio **basato sul rischio**:\n- pratiche **vietate** (es. punteggio sociale);\n- sistemi **ad alto rischio** (es. alcuni usi in selezione del personale, istruzione, credito) con obblighi stringenti;\n- obblighi di **trasparenza** (es. informare quando si interagisce con un sistema AI, segnalare contenuti sintetici in determinati casi);\n- obblighi specifici per i fornitori di **modelli di AI per finalità generali**;\n- obblighi di **alfabetizzazione in materia di AI** per chi fornisce e utilizza sistemi AI.\n\n### GDPR\nSe tratti dati personali con strumenti AI valgono i principi del GDPR: base giuridica, minimizzazione, informativa, sicurezza, valutazione dei fornitori.\n\n> Le scadenze di applicazione e le linee guida attuative evolvono: verifica sempre sul sito ufficiale della Commissione europea e con il tuo consulente."
+    },
+    {
+     "slug": "pro-policy-qualita",
+     "title": "Policy aziendale e misurazione della qualità",
+     "minutes": 12,
+     "kind": "teoria",
+     "content": "### Elementi di una policy interna\n- Strumenti **approvati** e per quali dati.\n- Attività **vietate** o che richiedono revisione umana.\n- Regole su **riservatezza**, proprietà intellettuale, trasparenza verso i clienti.\n- **Formazione** obbligatoria e referente interno.\n\n### Misurare il valore\n- Definisci **indicatori** prima di introdurre lo strumento (tempo per attività, errori, soddisfazione).\n- Conserva **esempi di riferimento** per verificare nel tempo che la qualità non peggiori quando cambiano i modelli.\n- Raccogli i **casi di errore** e aggiorna prompt e procedure."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Quale approccio adotta l’AI Act europeo?",
+     "options": [
+      "Divieto totale dell’AI",
+      "Approccio basato sul rischio",
+      "Nessuna regola per le aziende",
+      "Solo regole fiscali"
+     ],
+     "answer": 1,
+     "explanation": "Gli obblighi crescono con il livello di rischio del sistema.",
+     "skill": "professionale"
+    },
+    {
+     "prompt": "Se un flusso AI tratta dati personali, quale normativa si applica certamente?",
+     "options": [
+      "Nessuna",
+      "Il GDPR",
+      "Solo il codice della strada",
+      "Solo norme statunitensi"
+     ],
+     "answer": 1,
+     "explanation": "Il GDPR si applica a ogni trattamento di dati personali nell’UE.",
+     "skill": "professionale"
+    },
+    {
+     "prompt": "Perché conservare esempi di riferimento nel tempo?",
+     "options": [
+      "Per occupare spazio",
+      "Per verificare che la qualità non peggiori quando cambiano i modelli",
+      "Per obbligo di legge",
+      "Non serve"
+     ],
+     "answer": 1,
+     "explanation": "I modelli cambiano: servono test di regressione.",
+     "skill": "professionale"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "7b1c18b7ff"
+  },
+  {
+   "slug": "intro-chatgpt",
+   "kind": "ai",
+   "title": "Introduzione a ChatGPT",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è ChatGPT, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "chatgpt"
+   ],
+   "lessons": [
+    {
+     "slug": "chatgpt-scheda",
+     "title": "ChatGPT: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**ChatGPT** è un assistente conversazionale sviluppato da **OpenAI**.\n\nAssistente conversazionale basato sui modelli GPT di OpenAI. Disponibile via web, app desktop e mobile; i modelli sono accessibili anche tramite API per sviluppatori.\n\n### Funzionalità principali\n- Conversazione e scrittura\n- Analisi di file e immagini caricate\n- Ricerca sul web\n- Generazione di immagini\n- Modalità vocale\n- GPT personalizzati\n- Progetti per organizzare conversazioni e file\n\n### Ambiti di utilizzo\n- Scrittura e revisione testi\n- Studio e spiegazioni\n- Analisi di documenti e dati\n- Programmazione\n- Brainstorming\n\n### Punti di forza\n- Ecosistema molto ampio di funzioni in un unico prodotto\n- Ampia disponibilità di guide e community\n- API documentata per integrazioni\n\n### Limitazioni da conoscere\n- Può produrre informazioni errate con tono sicuro: verificare i fatti\n- Le funzioni disponibili variano tra piano gratuito e a pagamento\n- Limiti di utilizzo sui modelli più capaci\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile, con limiti di utilizzo sui modelli più avanzati. | ⚠️ da verificare |\n| Piani a pagamento | Piani individuali (es. Plus, Pro) e per organizzazioni (Business, Enterprise, Edu). | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://openai.com/chatgpt/pricing/.\n\n### Fonti ufficiali\n- Sito: https://chatgpt.com\n- Documentazione / guida: https://platform.openai.com/docs\n- Prezzi: https://openai.com/chatgpt/pricing/\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "chatgpt-primi-passi",
+     "title": "Primi passi con ChatGPT",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **ChatGPT** direttamente sul servizio ufficiale (https://chatgpt.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://platform.openai.com/docs\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa ChatGPT?",
+     "options": [
+      "Suno, Inc.",
+      "OpenAI",
+      "Midjourney, Inc.",
+      "ElevenLabs"
+     ],
+     "answer": 1,
+     "explanation": "ChatGPT è sviluppato da OpenAI.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di ChatGPT?",
+     "options": [
+      "Scrittura e revisione testi",
+      "Audiolibri",
+      "Test e revisione",
+      "Video brevi per social e pubblicità"
+     ],
+     "answer": 0,
+     "explanation": "Ambiti indicati nella scheda: Scrittura e revisione testi; Studio e spiegazioni; Analisi di documenti e dati; Programmazione; Brainstorming.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di ChatGPT è indicata nella scheda?",
+     "options": [
+      "Può produrre informazioni errate con tono sicuro: verificare i fatti",
+      "Funziona solo senza connessione a Internet",
+      "Non ha alcuna limitazione d’uso",
+      "Garantisce risposte sempre corrette"
+     ],
+     "answer": 0,
+     "explanation": "Limitazioni indicate: Può produrre informazioni errate con tono sicuro: verificare i fatti; Le funzioni disponibili variano tra piano gratuito e a pagamento; Limiti di utilizzo sui modelli più capaci.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di ChatGPT?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "209f028ee1"
+  },
+  {
+   "slug": "intro-claude",
+   "kind": "ai",
+   "title": "Introduzione a Claude",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Claude, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "claude"
+   ],
+   "lessons": [
+    {
+     "slug": "claude-scheda",
+     "title": "Claude: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Claude** è un assistente conversazionale sviluppato da **Anthropic**.\n\nAssistente AI di Anthropic, basato sulla famiglia di modelli Claude. Disponibile via web, app desktop e mobile e tramite API; include strumenti per sviluppatori come Claude Code.\n\n### Funzionalità principali\n- Conversazione e scrittura\n- Analisi di documenti lunghi e PDF\n- Artifact: documenti, codice e pagine interattive\n- Progetti con conoscenza condivisa\n- Ricerca sul web\n- Claude Code per la programmazione\n\n### Ambiti di utilizzo\n- Analisi e sintesi di documenti lunghi\n- Scrittura professionale\n- Programmazione\n- Ricerca e studio\n\n### Punti di forza\n- Finestra di contesto ampia, adatta a documenti lunghi\n- Strumenti dedicati alla programmazione\n- API documentata\n\n### Limitazioni da conoscere\n- Può commettere errori: verificare le informazioni importanti\n- Limiti di utilizzo che variano in base al piano\n- Non genera immagini\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile, con limiti di utilizzo. | ⚠️ da verificare |\n| Piani a pagamento | Piani individuali (es. Pro, Max) e per organizzazioni (Team, Enterprise). | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://claude.com/pricing.\n\n### Fonti ufficiali\n- Sito: https://claude.ai\n- Documentazione / guida: https://docs.claude.com\n- Prezzi: https://claude.com/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "claude-primi-passi",
+     "title": "Primi passi con Claude",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Claude** direttamente sul servizio ufficiale (https://claude.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.claude.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Claude?",
+     "options": [
+      "Anthropic",
+      "Perplexity AI",
+      "Replit",
+      "Midjourney, Inc."
+     ],
+     "answer": 0,
+     "explanation": "Claude è sviluppato da Anthropic.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Claude?",
+     "options": [
+      "Spiegazione di codice",
+      "Verifica rapida delle fonti",
+      "Prototipi musicali",
+      "Analisi e sintesi di documenti lunghi"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Analisi e sintesi di documenti lunghi; Scrittura professionale; Programmazione; Ricerca e studio.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Claude è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette",
+      "Può commettere errori: verificare le informazioni importanti"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Può commettere errori: verificare le informazioni importanti; Limiti di utilizzo che variano in base al piano; Non genera immagini.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Claude?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "dd2601c74a"
+  },
+  {
+   "slug": "intro-gemini",
+   "kind": "ai",
+   "title": "Introduzione a Gemini",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Gemini, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "gemini"
+   ],
+   "lessons": [
+    {
+     "slug": "gemini-scheda",
+     "title": "Gemini: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Gemini** è un assistente conversazionale sviluppato da **Google**.\n\nAssistente AI di Google basato sui modelli Gemini, integrato con i servizi Google (Gmail, Documenti, Drive). I modelli sono disponibili per sviluppatori tramite Gemini API e Google AI Studio.\n\n### Funzionalità principali\n- Conversazione e scrittura\n- Integrazione con app Google\n- Analisi di file, immagini e video\n- Deep Research\n- Generazione di immagini\n- Gem personalizzati\n\n### Ambiti di utilizzo\n- Produttività con Google Workspace\n- Ricerca approfondita\n- Analisi multimodale\n- Studio\n\n### Punti di forza\n- Integrazione nativa con l’ecosistema Google\n- Capacità multimodali (testo, immagini, audio, video)\n- Google AI Studio per sperimentare gratuitamente con l’API\n\n### Limitazioni da conoscere\n- Alcune funzioni dipendono dall’abbonamento Google\n- Disponibilità delle funzioni variabile per paese e lingua\n- Possibili errori fattuali\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile con account Google. | ⚠️ da verificare |\n| Piani a pagamento | Funzioni avanzate incluse negli abbonamenti Google AI (Google One). | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://gemini.google.com).\n\n### Fonti ufficiali\n- Sito: https://gemini.google.com\n- Documentazione / guida: https://ai.google.dev/gemini-api/docs\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "gemini-primi-passi",
+     "title": "Primi passi con Gemini",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Gemini** direttamente sul servizio ufficiale (https://gemini.google.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://ai.google.dev/gemini-api/docs\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Gemini?",
+     "options": [
+      "Mistral AI",
+      "Hugging Face",
+      "ElevenLabs",
+      "Google"
+     ],
+     "answer": 3,
+     "explanation": "Gemini è sviluppato da Google.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Gemini?",
+     "options": [
+      "Asset per videogiochi e design",
+      "Jingle e musica per contenuti",
+      "Produttività con Google Workspace",
+      "Verifica rapida delle fonti"
+     ],
+     "answer": 2,
+     "explanation": "Ambiti indicati nella scheda: Produttività con Google Workspace; Ricerca approfondita; Analisi multimodale; Studio.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Gemini è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette",
+      "Alcune funzioni dipendono dall’abbonamento Google",
+      "Non ha alcuna limitazione d’uso"
+     ],
+     "answer": 2,
+     "explanation": "Limitazioni indicate: Alcune funzioni dipendono dall’abbonamento Google; Disponibilità delle funzioni variabile per paese e lingua; Possibili errori fattuali.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Gemini?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "18a41017fa"
+  },
+  {
+   "slug": "intro-copilot",
+   "kind": "ai",
+   "title": "Introduzione a Microsoft Copilot",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Microsoft Copilot, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "copilot"
+   ],
+   "lessons": [
+    {
+     "slug": "copilot-scheda",
+     "title": "Microsoft Copilot: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Microsoft Copilot** è un assistente conversazionale sviluppato da **Microsoft**.\n\nAssistente AI di Microsoft disponibile sul web, in Windows, nel browser Edge e integrato nelle applicazioni Microsoft 365 (Word, Excel, PowerPoint, Outlook, Teams).\n\n### Funzionalità principali\n- Conversazione e ricerca\n- Integrazione con Microsoft 365\n- Generazione di immagini\n- Modalità vocale\n- Agenti per ambito aziendale\n\n### Ambiti di utilizzo\n- Documenti, fogli di calcolo e presentazioni Office\n- Email e riunioni\n- Ricerca sul web\n\n### Punti di forza\n- Integrazione profonda con gli strumenti Office usati in azienda\n- Gestione aziendale di sicurezza e conformità (versione Microsoft 365)\n\n### Limitazioni da conoscere\n- Le funzioni dentro le app Office richiedono licenze specifiche\n- Esperienza diversa tra versione consumer e aziendale\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Versione consumer disponibile gratuitamente. | ⚠️ da verificare |\n| Piani a pagamento | Funzioni in Microsoft 365 tramite abbonamenti consumer o licenze aziendali Copilot. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://copilot.microsoft.com).\n\n### Fonti ufficiali\n- Sito: https://copilot.microsoft.com\n- Documentazione / guida: https://learn.microsoft.com/copilot/\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "copilot-primi-passi",
+     "title": "Primi passi con Microsoft Copilot",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Microsoft Copilot** direttamente sul servizio ufficiale (https://copilot.microsoft.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://learn.microsoft.com/copilot/\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Microsoft Copilot?",
+     "options": [
+      "Ideogram AI",
+      "Microsoft",
+      "DeepSeek (Hangzhou DeepSeek AI)",
+      "xAI"
+     ],
+     "answer": 1,
+     "explanation": "Microsoft Copilot è sviluppato da Microsoft.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Microsoft Copilot?",
+     "options": [
+      "Immagini per marketing e social",
+      "Ricerca di informazioni aggiornate",
+      "Documenti, fogli di calcolo e presentazioni Office",
+      "Test e revisione"
+     ],
+     "answer": 2,
+     "explanation": "Ambiti indicati nella scheda: Documenti, fogli di calcolo e presentazioni Office; Email e riunioni; Ricerca sul web.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Microsoft Copilot è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Le funzioni dentro le app Office richiedono licenze specifiche",
+      "Garantisce risposte sempre corrette",
+      "Funziona solo senza connessione a Internet"
+     ],
+     "answer": 1,
+     "explanation": "Limitazioni indicate: Le funzioni dentro le app Office richiedono licenze specifiche; Esperienza diversa tra versione consumer e aziendale.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Microsoft Copilot?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "9beca4f773"
+  },
+  {
+   "slug": "intro-perplexity",
+   "kind": "ai",
+   "title": "Introduzione a Perplexity",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "ricerca"
+   ],
+   "description": "Che cos’è Perplexity, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "perplexity"
+   ],
+   "lessons": [
+    {
+     "slug": "perplexity-scheda",
+     "title": "Perplexity: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Perplexity** è un motore di ricerca con AI sviluppato da **Perplexity AI**.\n\nMotore di risposta basato su AI che cerca sul web e risponde citando le fonti consultate. Offre anche un’API per sviluppatori.\n\n### Funzionalità principali\n- Risposte con citazioni delle fonti\n- Ricerca approfondita\n- Spazi per organizzare ricerche\n- Scelta del modello (piani a pagamento)\n- API\n\n### Ambiti di utilizzo\n- Ricerca di informazioni aggiornate\n- Rassegne su un argomento\n- Verifica rapida delle fonti\n\n### Punti di forza\n- Mostra le fonti di ogni risposta, facilitando la verifica\n- Orientato alla ricerca di informazioni recenti\n\n### Limitazioni da conoscere\n- La qualità dipende dalle fonti trovate\n- Le citazioni vanno comunque aperte e controllate\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile, con un numero limitato di ricerche avanzate. | ⚠️ da verificare |\n| Piani a pagamento | Piani a pagamento (es. Pro) e per aziende. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://www.perplexity.ai).\n\n### Fonti ufficiali\n- Sito: https://www.perplexity.ai\n- Documentazione / guida: https://docs.perplexity.ai\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "perplexity-primi-passi",
+     "title": "Primi passi con Perplexity",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Perplexity** direttamente sul servizio ufficiale (https://www.perplexity.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Formula una domanda specificando periodo e ambito.\n2. Apri almeno tre fonti citate e verifica che riportino ciò che dice la risposta.\n3. Prova la modalità di ricerca approfondita su un tema che conosci bene, per valutarne l’accuratezza.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.perplexity.ai\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Perplexity?",
+     "options": [
+      "Suno, Inc.",
+      "Runway AI, Inc.",
+      "Perplexity AI",
+      "GitHub (Microsoft)"
+     ],
+     "answer": 2,
+     "explanation": "Perplexity è sviluppato da Perplexity AI.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Perplexity?",
+     "options": [
+      "Ragionamento matematico e logico",
+      "Ricerca di informazioni aggiornate",
+      "Jingle e musica per contenuti",
+      "Imparare il machine learning"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Ricerca di informazioni aggiornate; Rassegne su un argomento; Verifica rapida delle fonti.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Perplexity è indicata nella scheda?",
+     "options": [
+      "La qualità dipende dalle fonti trovate",
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette"
+     ],
+     "answer": 0,
+     "explanation": "Limitazioni indicate: La qualità dipende dalle fonti trovate; Le citazioni vanno comunque aperte e controllate.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Perplexity?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "8642f7dcd1"
+  },
+  {
+   "slug": "intro-deepseek",
+   "kind": "ai",
+   "title": "Introduzione a DeepSeek",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è DeepSeek, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "deepseek"
+   ],
+   "lessons": [
+    {
+     "slug": "deepseek-scheda",
+     "title": "DeepSeek: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**DeepSeek** è un assistente conversazionale sviluppato da **DeepSeek (Hangzhou DeepSeek AI)**.\n\nAssistente e famiglia di modelli linguistici sviluppati dall’azienda cinese DeepSeek, noti per la pubblicazione di modelli con pesi aperti e per i costi API contenuti.\n\n### Funzionalità principali\n- Chat via web e app\n- Modalità di ragionamento\n- Ricerca web\n- Modelli con pesi scaricabili\n- API\n\n### Ambiti di utilizzo\n- Ragionamento matematico e logico\n- Programmazione\n- Sperimentazione con modelli aperti\n\n### Punti di forza\n- Modelli con pesi aperti eseguibili anche in locale\n- API a basso costo\n\n### Limitazioni da conoscere\n- Valutare con attenzione privacy e luogo di trattamento dei dati nel servizio online\n- Possibili restrizioni su alcuni argomenti\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Chat gratuita via web e app. | ⚠️ da verificare |\n| Piani a pagamento | API a consumo (prezzo per token). | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://api-docs.deepseek.com/quick_start/pricing.\n\n### Fonti ufficiali\n- Sito: https://www.deepseek.com\n- Documentazione / guida: https://api-docs.deepseek.com\n- Prezzi: https://api-docs.deepseek.com/quick_start/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "deepseek-primi-passi",
+     "title": "Primi passi con DeepSeek",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **DeepSeek** direttamente sul servizio ufficiale (https://www.deepseek.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://api-docs.deepseek.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa DeepSeek?",
+     "options": [
+      "Replit",
+      "Perplexity AI",
+      "Leonardo.Ai (gruppo Canva)",
+      "DeepSeek (Hangzhou DeepSeek AI)"
+     ],
+     "answer": 3,
+     "explanation": "DeepSeek è sviluppato da DeepSeek (Hangzhou DeepSeek AI).",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di DeepSeek?",
+     "options": [
+      "Jingle e musica per contenuti",
+      "Effetti visivi",
+      "Assistenti vocali",
+      "Ragionamento matematico e logico"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Ragionamento matematico e logico; Programmazione; Sperimentazione con modelli aperti.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di DeepSeek è indicata nella scheda?",
+     "options": [
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Valutare con attenzione privacy e luogo di trattamento dei dati nel servizio online"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Valutare con attenzione privacy e luogo di trattamento dei dati nel servizio online; Possibili restrizioni su alcuni argomenti.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di DeepSeek?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "19060b458d"
+  },
+  {
+   "slug": "intro-grok",
+   "kind": "ai",
+   "title": "Introduzione a Grok",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Grok, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "grok"
+   ],
+   "lessons": [
+    {
+     "slug": "grok-scheda",
+     "title": "Grok: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Grok** è un assistente conversazionale sviluppato da **xAI**.\n\nAssistente AI sviluppato da xAI, disponibile come app autonoma e integrato nella piattaforma X, con accesso ai contenuti pubblicati su X.\n\n### Funzionalità principali\n- Conversazione\n- Ricerca su web e su X\n- Generazione di immagini\n- Modalità di ragionamento\n- API\n\n### Ambiti di utilizzo\n- Monitoraggio di discussioni e tendenze su X\n- Domande generali\n- Ricerca\n\n### Punti di forza\n- Accesso a contenuti in tempo reale da X\n\n### Limitazioni da conoscere\n- I contenuti dei social possono essere non verificati\n- Funzioni variabili in base all’abbonamento\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile con limiti di utilizzo. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti Grok/X Premium e API a consumo. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://grok.com).\n\n### Fonti ufficiali\n- Sito: https://grok.com\n- Documentazione / guida: https://docs.x.ai\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "grok-primi-passi",
+     "title": "Primi passi con Grok",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Grok** direttamente sul servizio ufficiale (https://grok.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.x.ai\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Grok?",
+     "options": [
+      "Anthropic",
+      "Anysphere",
+      "xAI",
+      "GitHub (Microsoft)"
+     ],
+     "answer": 2,
+     "explanation": "Grok è sviluppato da xAI.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Grok?",
+     "options": [
+      "Illustrazioni",
+      "Monitoraggio di discussioni e tendenze su X",
+      "Asset per videogiochi e design",
+      "Verifica rapida delle fonti"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Monitoraggio di discussioni e tendenze su X; Domande generali; Ricerca.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Grok è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "I contenuti dei social possono essere non verificati",
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso"
+     ],
+     "answer": 1,
+     "explanation": "Limitazioni indicate: I contenuti dei social possono essere non verificati; Funzioni variabili in base all’abbonamento.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Grok?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "ce9f215b60"
+  },
+  {
+   "slug": "intro-mistral",
+   "kind": "ai",
+   "title": "Introduzione a Mistral AI (Le Chat)",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Mistral AI (Le Chat), a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "mistral"
+   ],
+   "lessons": [
+    {
+     "slug": "mistral-scheda",
+     "title": "Mistral AI (Le Chat): scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Mistral AI (Le Chat)** è un assistente conversazionale sviluppato da **Mistral AI**.\n\nAzienda francese che sviluppa modelli linguistici, sia proprietari sia con pesi aperti. Le Chat è il suo assistente conversazionale; la piattaforma \"La Plateforme\" offre le API.\n\n### Funzionalità principali\n- Le Chat: conversazione, ricerca web, analisi documenti\n- Generazione di immagini\n- Modelli con pesi aperti\n- API e modelli per il codice\n\n### Ambiti di utilizzo\n- Assistente generico\n- Soluzioni con requisiti europei di localizzazione dei dati\n- Esecuzione di modelli in locale\n\n### Punti di forza\n- Azienda europea\n- Diversi modelli con licenza aperta\n\n### Limitazioni da conoscere\n- Ecosistema di integrazioni meno esteso dei grandi provider statunitensi\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Le Chat disponibile gratuitamente con limiti. | ⚠️ da verificare |\n| Piani a pagamento | Le Chat Pro / Team / Enterprise; API a consumo. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://mistral.ai/pricing.\n\n### Fonti ufficiali\n- Sito: https://mistral.ai\n- Documentazione / guida: https://docs.mistral.ai\n- Prezzi: https://mistral.ai/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "mistral-primi-passi",
+     "title": "Primi passi con Mistral AI (Le Chat)",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Mistral AI (Le Chat)** direttamente sul servizio ufficiale (https://mistral.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.mistral.ai\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Mistral AI (Le Chat)?",
+     "options": [
+      "Ideogram AI",
+      "Mistral AI",
+      "Suno, Inc.",
+      "Anthropic"
+     ],
+     "answer": 1,
+     "explanation": "Mistral AI (Le Chat) è sviluppato da Mistral AI.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Mistral AI (Le Chat)?",
+     "options": [
+      "Assistente generico",
+      "Scrittura di codice",
+      "Ricerca di informazioni aggiornate",
+      "Refactoring"
+     ],
+     "answer": 0,
+     "explanation": "Ambiti indicati nella scheda: Assistente generico; Soluzioni con requisiti europei di localizzazione dei dati; Esecuzione di modelli in locale.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Mistral AI (Le Chat) è indicata nella scheda?",
+     "options": [
+      "Ecosistema di integrazioni meno esteso dei grandi provider statunitensi",
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet"
+     ],
+     "answer": 0,
+     "explanation": "Limitazioni indicate: Ecosistema di integrazioni meno esteso dei grandi provider statunitensi.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Mistral AI (Le Chat)?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "d216d0cbd0"
+  },
+  {
+   "slug": "intro-meta-ai",
+   "kind": "ai",
+   "title": "Introduzione a Meta AI",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "assistente"
+   ],
+   "description": "Che cos’è Meta AI, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "meta-ai"
+   ],
+   "lessons": [
+    {
+     "slug": "meta-ai-scheda",
+     "title": "Meta AI: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Meta AI** è un assistente conversazionale sviluppato da **Meta**.\n\nAssistente AI di Meta integrato in WhatsApp, Instagram, Facebook e Messenger, basato sui modelli Llama. I modelli Llama sono distribuiti con pesi scaricabili secondo la licenza di Meta.\n\n### Funzionalità principali\n- Chat nelle app Meta e sul web\n- Generazione di immagini\n- Modelli Llama scaricabili\n\n### Ambiti di utilizzo\n- Domande rapide nelle app di messaggistica\n- Sviluppo con modelli Llama in locale\n\n### Punti di forza\n- Disponibile dentro app già usate quotidianamente\n- Modelli Llama utilizzabili in proprie applicazioni (secondo licenza)\n\n### Limitazioni da conoscere\n- Disponibilità delle funzioni variabile per paese\n- Licenza Llama con condizioni specifiche, non open source in senso stretto\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Gratuito nelle app Meta. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://www.meta.ai).\n\n### Fonti ufficiali\n- Sito: https://www.meta.ai\n- Documentazione / guida: https://www.llama.com\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "meta-ai-primi-passi",
+     "title": "Primi passi con Meta AI",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Meta AI** direttamente sul servizio ufficiale (https://www.meta.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account sul sito ufficiale e prova la versione gratuita.\n2. Scrivi un primo prompt con contesto, compito e formato (vedi il modulo \"Scrivere prompt efficaci\").\n3. Carica un documento non riservato e chiedi una sintesi con riferimenti alle sezioni.\n4. Esplora le impostazioni: istruzioni personalizzate, memoria, uso dei dati per l’addestramento.\n5. Prova a chiedere la stessa cosa due volte e confronta le risposte.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://www.llama.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Meta AI?",
+     "options": [
+      "Meta",
+      "Google",
+      "Anthropic",
+      "Hugging Face"
+     ],
+     "answer": 0,
+     "explanation": "Meta AI è sviluppato da Meta.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Meta AI?",
+     "options": [
+      "Prototipi musicali",
+      "Domande rapide nelle app di messaggistica",
+      "Jingle e musica per contenuti",
+      "Scrittura di codice"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Domande rapide nelle app di messaggistica; Sviluppo con modelli Llama in locale.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Meta AI è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette",
+      "Disponibilità delle funzioni variabile per paese"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Disponibilità delle funzioni variabile per paese; Licenza Llama con condizioni specifiche, non open source in senso stretto.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Meta AI?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "7d2597f31b"
+  },
+  {
+   "slug": "intro-notebooklm",
+   "kind": "ai",
+   "title": "Introduzione a NotebookLM",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "studio"
+   ],
+   "description": "Che cos’è NotebookLM, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "notebooklm"
+   ],
+   "lessons": [
+    {
+     "slug": "notebooklm-scheda",
+     "title": "NotebookLM: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**NotebookLM** è un strumento di studio sviluppato da **Google**.\n\nStrumento di Google per studiare e ricercare a partire dalle proprie fonti (PDF, documenti, siti, video): le risposte si basano sui materiali caricati e citano i passaggi di riferimento.\n\n### Funzionalità principali\n- Risposte basate solo sulle fonti caricate, con citazioni\n- Panoramiche audio in stile podcast\n- Guide di studio, FAQ, mappe mentali\n- Quiz e flashcard\n\n### Ambiti di utilizzo\n- Studio di documenti e dispense\n- Ricerca su un insieme di fonti\n- Preparazione di riunioni ed esami\n\n### Punti di forza\n- Ancoraggio alle fonti dell’utente: riduce le risposte inventate\n- Ottimo per l’apprendimento\n\n### Limitazioni da conoscere\n- Non sostituisce la lettura critica delle fonti\n- Limiti sul numero e dimensione delle fonti per taccuino\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile gratuitamente con account Google. | ⚠️ da verificare |\n| Piani a pagamento | Limiti più alti negli abbonamenti Google AI e in Google Workspace. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://notebooklm.google.com).\n\n### Fonti ufficiali\n- Sito: https://notebooklm.google.com\n- Documentazione / guida: https://support.google.com/notebooklm\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "notebooklm-primi-passi",
+     "title": "Primi passi con NotebookLM",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **NotebookLM** direttamente sul servizio ufficiale (https://notebooklm.google.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un taccuino e carica 2–3 fonti su un argomento che stai studiando.\n2. Fai domande e controlla le citazioni ai passaggi delle fonti.\n3. Genera una guida di studio o un quiz e usali per ripassare.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://support.google.com/notebooklm\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa NotebookLM?",
+     "options": [
+      "Meta",
+      "DeepSeek (Hangzhou DeepSeek AI)",
+      "OpenAI",
+      "Google"
+     ],
+     "answer": 3,
+     "explanation": "NotebookLM è sviluppato da Google.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di NotebookLM?",
+     "options": [
+      "Domande generali",
+      "Uso creativo personale",
+      "Produttività con Google Workspace",
+      "Studio di documenti e dispense"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Studio di documenti e dispense; Ricerca su un insieme di fonti; Preparazione di riunioni ed esami.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di NotebookLM è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette",
+      "Non sostituisce la lettura critica delle fonti",
+      "Non ha alcuna limitazione d’uso"
+     ],
+     "answer": 2,
+     "explanation": "Limitazioni indicate: Non sostituisce la lettura critica delle fonti; Limiti sul numero e dimensione delle fonti per taccuino.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di NotebookLM?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "3ed033705e"
+  },
+  {
+   "slug": "intro-cursor",
+   "kind": "ai",
+   "title": "Introduzione a Cursor",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "codice"
+   ],
+   "description": "Che cos’è Cursor, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "cursor"
+   ],
+   "lessons": [
+    {
+     "slug": "cursor-scheda",
+     "title": "Cursor: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Cursor** è un strumento per la programmazione sviluppato da **Anysphere**.\n\nEditor di codice basato su VS Code con AI integrata: completamento, modifiche su più file, chat sul progetto e agenti che eseguono attività di programmazione.\n\n### Funzionalità principali\n- Completamento del codice\n- Chat con il contesto del progetto\n- Agente per modifiche multi-file\n- Scelta tra modelli di diversi provider\n\n### Ambiti di utilizzo\n- Sviluppo software\n- Refactoring\n- Comprensione di codice esistente\n\n### Punti di forza\n- Comprende l’intero progetto\n- Compatibile con estensioni di VS Code\n\n### Limitazioni da conoscere\n- Richiede di saper valutare il codice prodotto\n- Uso intensivo dei modelli premium soggetto a limiti\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Piano gratuito (Hobby) con limiti. | ⚠️ da verificare |\n| Piani a pagamento | Piani Pro e per team/aziende. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://cursor.com/pricing.\n\n### Fonti ufficiali\n- Sito: https://cursor.com\n- Documentazione / guida: https://docs.cursor.com\n- Prezzi: https://cursor.com/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "cursor-primi-passi",
+     "title": "Primi passi con Cursor",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Cursor** direttamente sul servizio ufficiale (https://cursor.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Installa lo strumento seguendo la documentazione ufficiale.\n2. Apri un piccolo progetto di prova (non un progetto di lavoro con dati sensibili).\n3. Chiedi la spiegazione di un file esistente, poi una piccola modifica con test.\n4. Rivedi ogni modifica proposta prima di accettarla.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.cursor.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Cursor?",
+     "options": [
+      "Anysphere",
+      "Perplexity AI",
+      "Ideogram AI",
+      "DeepSeek (Hangzhou DeepSeek AI)"
+     ],
+     "answer": 0,
+     "explanation": "Cursor è sviluppato da Anysphere.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Cursor?",
+     "options": [
+      "Accessibilità",
+      "Rassegne su un argomento",
+      "Sviluppo software",
+      "Illustrazione e concept art"
+     ],
+     "answer": 2,
+     "explanation": "Ambiti indicati nella scheda: Sviluppo software; Refactoring; Comprensione di codice esistente.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Cursor è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Richiede di saper valutare il codice prodotto",
+      "Garantisce risposte sempre corrette",
+      "Funziona solo senza connessione a Internet"
+     ],
+     "answer": 1,
+     "explanation": "Limitazioni indicate: Richiede di saper valutare il codice prodotto; Uso intensivo dei modelli premium soggetto a limiti.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Cursor?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "9af9fc19cb"
+  },
+  {
+   "slug": "intro-github-copilot",
+   "kind": "ai",
+   "title": "Introduzione a GitHub Copilot",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "codice"
+   ],
+   "description": "Che cos’è GitHub Copilot, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "github-copilot"
+   ],
+   "lessons": [
+    {
+     "slug": "github-copilot-scheda",
+     "title": "GitHub Copilot: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**GitHub Copilot** è un strumento per la programmazione sviluppato da **GitHub (Microsoft)**.\n\nAssistente di programmazione di GitHub integrato negli editor (VS Code, Visual Studio, JetBrains e altri) e in GitHub.com: completamento, chat, revisione e agente di codifica.\n\n### Funzionalità principali\n- Completamento del codice nell’editor\n- Copilot Chat\n- Modalità agente\n- Revisione delle pull request\n- Scelta del modello\n\n### Ambiti di utilizzo\n- Scrittura di codice\n- Spiegazione di codice\n- Test e revisione\n\n### Punti di forza\n- Integrazione con GitHub e con i principali editor\n- Gestione per organizzazioni\n\n### Limitazioni da conoscere\n- Suggerimenti da verificare per correttezza e sicurezza\n- Limiti mensili sulle richieste premium\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Piano Free con limiti mensili; gratuito per studenti e manutentori open source verificati. | ⚠️ da verificare |\n| Piani a pagamento | Piani Pro, Pro+, Business, Enterprise. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://github.com/features/copilot/plans.\n\n### Fonti ufficiali\n- Sito: https://github.com/features/copilot\n- Documentazione / guida: https://docs.github.com/copilot\n- Prezzi: https://github.com/features/copilot/plans\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "github-copilot-primi-passi",
+     "title": "Primi passi con GitHub Copilot",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **GitHub Copilot** direttamente sul servizio ufficiale (https://github.com/features/copilot).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Installa lo strumento seguendo la documentazione ufficiale.\n2. Apri un piccolo progetto di prova (non un progetto di lavoro con dati sensibili).\n3. Chiedi la spiegazione di un file esistente, poi una piccola modifica con test.\n4. Rivedi ogni modifica proposta prima di accettarla.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.github.com/copilot\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa GitHub Copilot?",
+     "options": [
+      "DeepSeek (Hangzhou DeepSeek AI)",
+      "Leonardo.Ai (gruppo Canva)",
+      "GitHub (Microsoft)",
+      "Runway AI, Inc."
+     ],
+     "answer": 2,
+     "explanation": "GitHub Copilot è sviluppato da GitHub (Microsoft).",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di GitHub Copilot?",
+     "options": [
+      "Illustrazione e concept art",
+      "Scrittura di codice",
+      "Sviluppo con modelli Llama in locale",
+      "Analisi di documenti e dati"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Scrittura di codice; Spiegazione di codice; Test e revisione.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di GitHub Copilot è indicata nella scheda?",
+     "options": [
+      "Suggerimenti da verificare per correttezza e sicurezza",
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette"
+     ],
+     "answer": 0,
+     "explanation": "Limitazioni indicate: Suggerimenti da verificare per correttezza e sicurezza; Limiti mensili sulle richieste premium.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di GitHub Copilot?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "9d946ba8f1"
+  },
+  {
+   "slug": "intro-replit",
+   "kind": "ai",
+   "title": "Introduzione a Replit AI",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "codice"
+   ],
+   "description": "Che cos’è Replit AI, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "replit"
+   ],
+   "lessons": [
+    {
+     "slug": "replit-scheda",
+     "title": "Replit AI: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Replit AI** è un strumento per la programmazione sviluppato da **Replit**.\n\nAmbiente di sviluppo nel browser con un agente AI che crea e pubblica applicazioni a partire da una descrizione in linguaggio naturale.\n\n### Funzionalità principali\n- Agente che costruisce app da descrizioni\n- Editor online\n- Database e hosting integrati\n- Pubblicazione delle app\n\n### Ambiti di utilizzo\n- Prototipi rapidi\n- Imparare a programmare\n- Piccole applicazioni web\n\n### Punti di forza\n- Nessuna installazione: tutto nel browser\n- Dal prompt all’app pubblicata\n\n### Limitazioni da conoscere\n- Costo legato all’uso dell’agente\n- Progetti complessi richiedono competenze tecniche\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Piano gratuito con funzioni AI limitate. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti con crediti di utilizzo per l’agente. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://replit.com/pricing.\n\n### Fonti ufficiali\n- Sito: https://replit.com\n- Documentazione / guida: https://docs.replit.com\n- Prezzi: https://replit.com/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "replit-primi-passi",
+     "title": "Primi passi con Replit AI",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Replit AI** direttamente sul servizio ufficiale (https://replit.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Installa lo strumento seguendo la documentazione ufficiale.\n2. Apri un piccolo progetto di prova (non un progetto di lavoro con dati sensibili).\n3. Chiedi la spiegazione di un file esistente, poi una piccola modifica con test.\n4. Rivedi ogni modifica proposta prima di accettarla.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.replit.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Replit AI?",
+     "options": [
+      "Leonardo.Ai (gruppo Canva)",
+      "xAI",
+      "Replit",
+      "Google"
+     ],
+     "answer": 2,
+     "explanation": "Replit AI è sviluppato da Replit.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Replit AI?",
+     "options": [
+      "Ricerca di informazioni aggiornate",
+      "Audiolibri",
+      "Analisi e sintesi di documenti lunghi",
+      "Prototipi rapidi"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Prototipi rapidi; Imparare a programmare; Piccole applicazioni web.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Replit AI è indicata nella scheda?",
+     "options": [
+      "Garantisce risposte sempre corrette",
+      "Funziona solo senza connessione a Internet",
+      "Non ha alcuna limitazione d’uso",
+      "Costo legato all’uso dell’agente"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Costo legato all’uso dell’agente; Progetti complessi richiedono competenze tecniche.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Replit AI?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "e9f3f0f229"
+  },
+  {
+   "slug": "intro-midjourney",
+   "kind": "ai",
+   "title": "Introduzione a Midjourney",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "immagini"
+   ],
+   "description": "Che cos’è Midjourney, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "midjourney"
+   ],
+   "lessons": [
+    {
+     "slug": "midjourney-scheda",
+     "title": "Midjourney: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Midjourney** è un generatore di immagini sviluppato da **Midjourney, Inc.**.\n\nServizio di generazione di immagini da descrizioni testuali, noto per la qualità estetica. Utilizzabile dal sito web e tramite Discord; supporta anche la generazione di brevi video.\n\n### Funzionalità principali\n- Generazione di immagini da testo\n- Varianti e upscale\n- Riferimenti di stile e di personaggio\n- Editor di immagini\n- Animazione in video\n\n### Ambiti di utilizzo\n- Illustrazione e concept art\n- Immagini per marketing e social\n- Moodboard\n\n### Punti di forza\n- Qualità estetica elevata\n- Ampia community con esempi di prompt\n\n### Limitazioni da conoscere\n- Nessuna API pubblica ufficiale\n- Gestione dei diritti d’uso dipendente dal piano: leggere i termini\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Nessun piano gratuito stabile (verificare eventuali prove). | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti Basic, Standard, Pro, Mega. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://www.midjourney.com).\n\n### Fonti ufficiali\n- Sito: https://www.midjourney.com\n- Documentazione / guida: https://docs.midjourney.com\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "midjourney-primi-passi",
+     "title": "Primi passi con Midjourney",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Midjourney** direttamente sul servizio ufficiale (https://www.midjourney.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Genera un’immagine con un prompt che specifichi soggetto, stile, composizione e formato.\n2. Crea varianti e cambia una sola variabile per volta.\n3. Leggi i termini d’uso del tuo piano riguardo ai diritti commerciali.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://docs.midjourney.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Midjourney?",
+     "options": [
+      "Midjourney, Inc.",
+      "Hugging Face",
+      "Replit",
+      "Ideogram AI"
+     ],
+     "answer": 0,
+     "explanation": "Midjourney è sviluppato da Midjourney, Inc..",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Midjourney?",
+     "options": [
+      "Studio di documenti e dispense",
+      "Illustrazione e concept art",
+      "Studio e spiegazioni",
+      "Prototipi rapidi"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Illustrazione e concept art; Immagini per marketing e social; Moodboard.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Midjourney è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "Nessuna API pubblica ufficiale",
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso"
+     ],
+     "answer": 1,
+     "explanation": "Limitazioni indicate: Nessuna API pubblica ufficiale; Gestione dei diritti d’uso dipendente dal piano: leggere i termini.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Midjourney?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "69c041bf5a"
+  },
+  {
+   "slug": "intro-ideogram",
+   "kind": "ai",
+   "title": "Introduzione a Ideogram",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "immagini"
+   ],
+   "description": "Che cos’è Ideogram, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "ideogram"
+   ],
+   "lessons": [
+    {
+     "slug": "ideogram-scheda",
+     "title": "Ideogram: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Ideogram** è un generatore di immagini sviluppato da **Ideogram AI**.\n\nGeneratore di immagini da testo particolarmente efficace nel rendere testo leggibile all’interno delle immagini (loghi, poster, grafiche).\n\n### Funzionalità principali\n- Generazione di immagini\n- Testo tipografico nelle immagini\n- Modifica e ricolorazione\n- API\n\n### Ambiti di utilizzo\n- Poster e locandine\n- Loghi e grafiche con scritte\n- Contenuti social\n\n### Punti di forza\n- Resa del testo nelle immagini\n\n### Limitazioni da conoscere\n- Le immagini generate gratuitamente possono essere pubbliche: verificare le impostazioni\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile con crediti limitati. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti con più crediti e generazioni private. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://ideogram.ai).\n\n### Fonti ufficiali\n- Sito: https://ideogram.ai\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "ideogram-primi-passi",
+     "title": "Primi passi con Ideogram",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Ideogram** direttamente sul servizio ufficiale (https://ideogram.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Genera un’immagine con un prompt che specifichi soggetto, stile, composizione e formato.\n2. Crea varianti e cambia una sola variabile per volta.\n3. Leggi i termini d’uso del tuo piano riguardo ai diritti commerciali.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\n\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Ideogram?",
+     "options": [
+      "Perplexity AI",
+      "Ideogram AI",
+      "Midjourney, Inc.",
+      "Meta"
+     ],
+     "answer": 1,
+     "explanation": "Ideogram è sviluppato da Ideogram AI.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Ideogram?",
+     "options": [
+      "Poster e locandine",
+      "Jingle e musica per contenuti",
+      "Prototipi musicali",
+      "Produttività con Google Workspace"
+     ],
+     "answer": 0,
+     "explanation": "Ambiti indicati nella scheda: Poster e locandine; Loghi e grafiche con scritte; Contenuti social.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Ideogram è indicata nella scheda?",
+     "options": [
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso",
+      "Le immagini generate gratuitamente possono essere pubbliche: verificare le impostazioni",
+      "Funziona solo senza connessione a Internet"
+     ],
+     "answer": 2,
+     "explanation": "Limitazioni indicate: Le immagini generate gratuitamente possono essere pubbliche: verificare le impostazioni.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Ideogram?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "e019fd4eac"
+  },
+  {
+   "slug": "intro-leonardo",
+   "kind": "ai",
+   "title": "Introduzione a Leonardo AI",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "immagini"
+   ],
+   "description": "Che cos’è Leonardo AI, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "leonardo"
+   ],
+   "lessons": [
+    {
+     "slug": "leonardo-scheda",
+     "title": "Leonardo AI: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Leonardo AI** è un generatore di immagini sviluppato da **Leonardo.Ai (gruppo Canva)**.\n\nPiattaforma di generazione di immagini e video con modelli multipli, strumenti di editing e possibilità di addestrare modelli personalizzati.\n\n### Funzionalità principali\n- Generazione di immagini con diversi modelli\n- Canvas per editing\n- Generazione video\n- Modelli personalizzati\n- API\n\n### Ambiti di utilizzo\n- Asset per videogiochi e design\n- Marketing\n- Illustrazioni\n\n### Punti di forza\n- Molti modelli e stili in un unico strumento\n- Controllo fine sui parametri\n\n### Limitazioni da conoscere\n- Sistema a crediti da comprendere per stimare i costi\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Crediti giornalieri gratuiti. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti con crediti mensili. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://leonardo.ai).\n\n### Fonti ufficiali\n- Sito: https://leonardo.ai\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "leonardo-primi-passi",
+     "title": "Primi passi con Leonardo AI",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Leonardo AI** direttamente sul servizio ufficiale (https://leonardo.ai).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Genera un’immagine con un prompt che specifichi soggetto, stile, composizione e formato.\n2. Crea varianti e cambia una sola variabile per volta.\n3. Leggi i termini d’uso del tuo piano riguardo ai diritti commerciali.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\n\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Leonardo AI?",
+     "options": [
+      "Leonardo.Ai (gruppo Canva)",
+      "Mistral AI",
+      "Anthropic",
+      "DeepSeek (Hangzhou DeepSeek AI)"
+     ],
+     "answer": 0,
+     "explanation": "Leonardo AI è sviluppato da Leonardo.Ai (gruppo Canva).",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Leonardo AI?",
+     "options": [
+      "Produttività con Google Workspace",
+      "Asset per videogiochi e design",
+      "Studio e spiegazioni",
+      "Analisi multimodale"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Asset per videogiochi e design; Marketing; Illustrazioni.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Leonardo AI è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Sistema a crediti da comprendere per stimare i costi",
+      "Garantisce risposte sempre corrette"
+     ],
+     "answer": 2,
+     "explanation": "Limitazioni indicate: Sistema a crediti da comprendere per stimare i costi.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Leonardo AI?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "6c1de52096"
+  },
+  {
+   "slug": "intro-runway",
+   "kind": "ai",
+   "title": "Introduzione a Runway",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "video"
+   ],
+   "description": "Che cos’è Runway, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "runway"
+   ],
+   "lessons": [
+    {
+     "slug": "runway-scheda",
+     "title": "Runway: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Runway** è un strumento video sviluppato da **Runway AI, Inc.**.\n\nPiattaforma di generazione ed editing video con AI: da testo o immagine a video, strumenti di montaggio e modifica.\n\n### Funzionalità principali\n- Generazione video da testo e immagini\n- Strumenti di editing video con AI\n- Generazione di immagini\n- API\n\n### Ambiti di utilizzo\n- Video brevi per social e pubblicità\n- Pre-visualizzazione cinematografica\n- Effetti visivi\n\n### Punti di forza\n- Specializzazione nel video\n- Strumenti professionali per creativi\n\n### Limitazioni da conoscere\n- Generazione video costosa in crediti\n- Clip di durata limitata\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Crediti iniziali gratuiti una tantum. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti Standard, Pro, Unlimited, Enterprise. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://runwayml.com/pricing.\n\n### Fonti ufficiali\n- Sito: https://runwayml.com\n- Documentazione / guida: https://help.runwayml.com\n- Prezzi: https://runwayml.com/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "runway-primi-passi",
+     "title": "Primi passi con Runway",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Runway** direttamente sul servizio ufficiale (https://runwayml.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Parti da un’immagine o da una descrizione breve con il movimento della camera.\n2. Genera clip brevi e assemblale in sequenza.\n3. Controlla il consumo di crediti di ogni generazione.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://help.runwayml.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Runway?",
+     "options": [
+      "Hugging Face",
+      "Midjourney, Inc.",
+      "Google",
+      "Runway AI, Inc."
+     ],
+     "answer": 3,
+     "explanation": "Runway è sviluppato da Runway AI, Inc..",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Runway?",
+     "options": [
+      "Assistente generico",
+      "Brainstorming",
+      "Prototipi musicali",
+      "Video brevi per social e pubblicità"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Video brevi per social e pubblicità; Pre-visualizzazione cinematografica; Effetti visivi.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Runway è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "Non ha alcuna limitazione d’uso",
+      "Garantisce risposte sempre corrette",
+      "Generazione video costosa in crediti"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Generazione video costosa in crediti; Clip di durata limitata.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Runway?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "bf2d167d22"
+  },
+  {
+   "slug": "intro-elevenlabs",
+   "kind": "ai",
+   "title": "Introduzione a ElevenLabs",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "audio"
+   ],
+   "description": "Che cos’è ElevenLabs, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "elevenlabs"
+   ],
+   "lessons": [
+    {
+     "slug": "elevenlabs-scheda",
+     "title": "ElevenLabs: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**ElevenLabs** è un strumento audio e voce sviluppato da **ElevenLabs**.\n\nPiattaforma di sintesi vocale e audio con AI: voci realistiche in molte lingue, doppiaggio, clonazione della voce (con consenso), effetti sonori e agenti vocali.\n\n### Funzionalità principali\n- Sintesi vocale multilingue\n- Clonazione della voce\n- Doppiaggio\n- Effetti sonori\n- Trascrizione\n- API\n\n### Ambiti di utilizzo\n- Voci per video e podcast\n- Audiolibri\n- Accessibilità\n- Assistenti vocali\n\n### Punti di forza\n- Qualità e naturalezza delle voci\n- Supporto a molte lingue\n\n### Limitazioni da conoscere\n- Uso della voce di terzi solo con consenso\n- Caratteri mensili limitati per piano\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Disponibile con quota mensile limitata e attribuzione richiesta. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti a livelli in base ai caratteri/minuti. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://elevenlabs.io/pricing.\n\n### Fonti ufficiali\n- Sito: https://elevenlabs.io\n- Documentazione / guida: https://elevenlabs.io/docs\n- Prezzi: https://elevenlabs.io/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "elevenlabs-primi-passi",
+     "title": "Primi passi con ElevenLabs",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **ElevenLabs** direttamente sul servizio ufficiale (https://elevenlabs.io).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Prova la generazione con un testo breve curando punteggiatura e pause.\n2. Confronta più voci o stili sullo stesso testo.\n3. Verifica le condizioni di licenza e le regole sul consenso per le voci.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://elevenlabs.io/docs\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa ElevenLabs?",
+     "options": [
+      "ElevenLabs",
+      "Hugging Face",
+      "Meta",
+      "GitHub (Microsoft)"
+     ],
+     "answer": 0,
+     "explanation": "ElevenLabs è sviluppato da ElevenLabs.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di ElevenLabs?",
+     "options": [
+      "Sperimentazione con modelli aperti",
+      "Contenuti social",
+      "Voci per video e podcast",
+      "Imparare a programmare"
+     ],
+     "answer": 2,
+     "explanation": "Ambiti indicati nella scheda: Voci per video e podcast; Audiolibri; Accessibilità; Assistenti vocali.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di ElevenLabs è indicata nella scheda?",
+     "options": [
+      "Non ha alcuna limitazione d’uso",
+      "Uso della voce di terzi solo con consenso",
+      "Garantisce risposte sempre corrette",
+      "Funziona solo senza connessione a Internet"
+     ],
+     "answer": 1,
+     "explanation": "Limitazioni indicate: Uso della voce di terzi solo con consenso; Caratteri mensili limitati per piano.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di ElevenLabs?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "98e8bf54cf"
+  },
+  {
+   "slug": "intro-suno",
+   "kind": "ai",
+   "title": "Introduzione a Suno",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "audio"
+   ],
+   "description": "Che cos’è Suno, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "suno"
+   ],
+   "lessons": [
+    {
+     "slug": "suno-scheda",
+     "title": "Suno: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Suno** è un strumento audio e voce sviluppato da **Suno, Inc.**.\n\nServizio che genera brani musicali completi (strumentale e voce) a partire da una descrizione testuale o da testi forniti dall’utente.\n\n### Funzionalità principali\n- Generazione di canzoni da testo\n- Testi personalizzati\n- Modifica ed estensione dei brani\n\n### Ambiti di utilizzo\n- Jingle e musica per contenuti\n- Prototipi musicali\n- Uso creativo personale\n\n### Punti di forza\n- Brani completi in pochi secondi\n\n### Limitazioni da conoscere\n- Diritti d’uso commerciale dipendenti dal piano: leggere i termini\n- Controllo limitato sui dettagli musicali\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Crediti giornalieri gratuiti per uso non commerciale. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti con uso commerciale e più crediti. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale (https://suno.com).\n\n### Fonti ufficiali\n- Sito: https://suno.com\n- Documentazione / guida: https://help.suno.com\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "suno-primi-passi",
+     "title": "Primi passi con Suno",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Suno** direttamente sul servizio ufficiale (https://suno.com).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Prova la generazione con un testo breve curando punteggiatura e pause.\n2. Confronta più voci o stili sullo stesso testo.\n3. Verifica le condizioni di licenza e le regole sul consenso per le voci.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://help.suno.com\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Suno?",
+     "options": [
+      "ElevenLabs",
+      "Midjourney, Inc.",
+      "Suno, Inc.",
+      "Anysphere"
+     ],
+     "answer": 2,
+     "explanation": "Suno è sviluppato da Suno, Inc..",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Suno?",
+     "options": [
+      "Brainstorming",
+      "Jingle e musica per contenuti",
+      "Marketing",
+      "Scrittura di codice"
+     ],
+     "answer": 1,
+     "explanation": "Ambiti indicati nella scheda: Jingle e musica per contenuti; Prototipi musicali; Uso creativo personale.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Suno è indicata nella scheda?",
+     "options": [
+      "Diritti d’uso commerciale dipendenti dal piano: leggere i termini",
+      "Non ha alcuna limitazione d’uso",
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette"
+     ],
+     "answer": 0,
+     "explanation": "Limitazioni indicate: Diritti d’uso commerciale dipendenti dal piano: leggere i termini; Controllo limitato sui dettagli musicali.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Suno?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "fac899b0e9"
+  },
+  {
+   "slug": "intro-hugging-face",
+   "kind": "ai",
+   "title": "Introduzione a Hugging Face",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "categories": [
+    "piattaforma"
+   ],
+   "description": "Che cos’è Hugging Face, a cosa serve, limiti e primi passi pratici.",
+   "tools": [
+    "hugging-face"
+   ],
+   "lessons": [
+    {
+     "slug": "hugging-face-scheda",
+     "title": "Hugging Face: scheda e funzioni",
+     "minutes": 10,
+     "kind": "teoria",
+     "content": "**Hugging Face** è un piattaforma per modelli AI sviluppato da **Hugging Face**.\n\nPiattaforma e community di riferimento per modelli, dataset e demo di AI con pesi aperti; offre librerie open source (Transformers, Diffusers) e corsi gratuiti.\n\n### Funzionalità principali\n- Hub di modelli e dataset\n- Spaces: demo interattive\n- Librerie open source\n- Corsi gratuiti\n- Inferenza tramite provider\n\n### Ambiti di utilizzo\n- Trovare e provare modelli aperti\n- Imparare il machine learning\n- Pubblicare modelli e demo\n\n### Punti di forza\n- Il più grande archivio pubblico di modelli aperti\n- Corsi gratuiti di qualità\n\n### Limitazioni da conoscere\n- Orientato a un pubblico tecnico\n- Qualità dei modelli della community molto variabile\n\n### Piani e versioni\n| Dato | Valore | Stato |\n|---|---|---|\n| Piano gratuito | Hub e corsi gratuiti. | ⚠️ da verificare |\n| Piani a pagamento | Abbonamenti Pro, Team/Enterprise e calcolo a consumo. | ⚠️ da verificare |\n\n> Piani, prezzi e versioni cambiano spesso. Prima di decidere controlla sempre la pagina ufficiale: https://huggingface.co/pricing.\n\n### Fonti ufficiali\n- Sito: https://huggingface.co\n- Documentazione / guida: https://huggingface.co/docs\n- Prezzi: https://huggingface.co/pricing\n\n*Scheda aggiornata il non verificata.*"
+    },
+    {
+     "slug": "hugging-face-primi-passi",
+     "title": "Primi passi con Hugging Face",
+     "minutes": 20,
+     "kind": "pratica",
+     "content": "In questa lezione pratica usi **Hugging Face** direttamente sul servizio ufficiale (https://huggingface.co).\nLa piattaforma non accede al tuo account: svolgi le attività sul servizio e poi annota cosa hai osservato.\n\n### Attività\n1. Crea un account e sfoglia i modelli più scaricati per un compito che ti interessa.\n2. Prova una demo interattiva (Space).\n3. Segui la prima unità di uno dei corsi gratuiti.\n\n### Annota\n- Che cosa ha funzionato bene al primo tentativo?\n- Dove hai dovuto correggere o riformulare?\n- Quali limiti del piano che usi hai incontrato?\n\nPer approfondire consulta la documentazione ufficiale: https://huggingface.co/docs\n\nQuando hai finito, prova un esercizio del **Laboratorio pratico** adatto a questo strumento."
+    }
+   ],
+   "questions": [
+    {
+     "prompt": "Chi sviluppa Hugging Face?",
+     "options": [
+      "Leonardo.Ai (gruppo Canva)",
+      "Microsoft",
+      "Hugging Face",
+      "GitHub (Microsoft)"
+     ],
+     "answer": 2,
+     "explanation": "Hugging Face è sviluppato da Hugging Face.",
+     "skill": "fondamenti"
+    },
+    {
+     "prompt": "Secondo la scheda studiata, quale di questi è un ambito d’uso tipico di Hugging Face?",
+     "options": [
+      "Accessibilità",
+      "Sperimentazione con modelli aperti",
+      "Scrittura di codice",
+      "Trovare e provare modelli aperti"
+     ],
+     "answer": 3,
+     "explanation": "Ambiti indicati nella scheda: Trovare e provare modelli aperti; Imparare il machine learning; Pubblicare modelli e demo.",
+     "skill": "confronto"
+    },
+    {
+     "prompt": "Quale limitazione di Hugging Face è indicata nella scheda?",
+     "options": [
+      "Funziona solo senza connessione a Internet",
+      "Garantisce risposte sempre corrette",
+      "Non ha alcuna limitazione d’uso",
+      "Orientato a un pubblico tecnico"
+     ],
+     "answer": 3,
+     "explanation": "Limitazioni indicate: Orientato a un pubblico tecnico; Qualità dei modelli della community molto variabile.",
+     "skill": "verifica"
+    },
+    {
+     "prompt": "Dove conviene verificare piani e prezzi aggiornati di Hugging Face?",
+     "options": [
+      "Sulla pagina ufficiale dei prezzi o del servizio",
+      "Chiedendolo allo stesso assistente AI",
+      "In un post sui social di un anno fa",
+      "Non serve verificarli"
+     ],
+     "answer": 0,
+     "explanation": "Piani e prezzi cambiano spesso: la fonte affidabile è la pagina ufficiale, con la data di consultazione.",
+     "skill": "verifica"
+    }
+   ],
+   "version": 1,
+   "updated": "2026-11-14",
+   "hash": "cd9d9aa98c"
+  }
+ ],
+ "exercises": [
+  {
+   "slug": "es-mail-fornitore",
+   "title": "Mail di sollecito a un fornitore",
+   "level": "principiante",
+   "course": "prompt-efficaci",
+   "categories": [
+    "assistente"
+   ],
+   "brief": "Il fornitore \"Rossi Srl\" è in ritardo di 10 giorni sulla consegna dell’ordine n. 4512. Scrivi un prompt che faccia redigere a un assistente AI una mail di sollecito cortese ma ferma, con richiesta di una nuova data certa entro 48 ore. Poi incolla la mail ottenuta.",
+   "rubric": [
+    {
+     "key": "contesto",
+     "label": "Contesto (chi scrive, a chi, situazione)",
+     "weight": 2
+    },
+    {
+     "key": "compito",
+     "label": "Compito chiaro",
+     "weight": 2
+    },
+    {
+     "key": "formato",
+     "label": "Formato e lunghezza",
+     "weight": 1
+    },
+    {
+     "key": "vincoli",
+     "label": "Tono e vincoli",
+     "weight": 2
+    },
+    {
+     "key": "specifici",
+     "label": "Dati specifici del caso (ordine, ritardo, scadenza)",
+     "weight": 3
+    }
+   ],
+   "required": [
+    [
+     "4512",
+     "ordine"
+    ],
+    [
+     "48",
+     "ore",
+     "scadenza",
+     "entro"
+    ],
+    [
+     "cortese",
+     "fermo",
+     "ferma",
+     "tono",
+     "deciso"
+    ]
+   ]
+  },
+  {
+   "slug": "es-rapporto-pdf",
+   "title": "Rapporto sintetico da un PDF di 50 pagine",
+   "level": "intermedio",
+   "course": "documenti-e-dati",
+   "categories": [
+    "assistente",
+    "studio"
+   ],
+   "brief": "Devi analizzare un documento PDF di 50 pagine (ad esempio un bilancio o una relazione annuale) e ricavarne un rapporto sintetico con dati, tabelle e conclusioni. Scrivi il prompt (o la sequenza di prompt) da usare con un assistente che accetta file. Se lo esegui davvero, incolla anche il risultato e indica eventuali errori che hai individuato.",
+   "rubric": [
+    {
+     "key": "contesto",
+     "label": "Contesto e destinatario del rapporto",
+     "weight": 2
+    },
+    {
+     "key": "compito",
+     "label": "Compito e passaggi",
+     "weight": 2
+    },
+    {
+     "key": "formato",
+     "label": "Struttura del rapporto e tabelle",
+     "weight": 2
+    },
+    {
+     "key": "verifica",
+     "label": "Riferimenti alle pagine e gestione dati mancanti",
+     "weight": 3
+    },
+    {
+     "key": "specifici",
+     "label": "Elementi richiesti (dati, tabelle, conclusioni)",
+     "weight": 2
+    }
+   ],
+   "required": [
+    [
+     "tabella",
+     "tabelle"
+    ],
+    [
+     "pagina",
+     "pagine",
+     "sezione"
+    ],
+    [
+     "conclusion",
+     "raccomandazion",
+     "sintesi"
+    ]
+   ]
+  },
+  {
+   "slug": "es-estrazione-contratti",
+   "title": "Estrazione di dati da contratti",
+   "level": "intermedio",
+   "course": "documenti-e-dati",
+   "categories": [
+    "assistente"
+   ],
+   "brief": "Hai il testo di 5 contratti di fornitura. Scrivi un prompt che estragga una tabella con fornitore, data di inizio, durata, importo annuo e penali, gestendo correttamente i dati mancanti e un formato numerico compatibile con un foglio di calcolo italiano.",
+   "rubric": [
+    {
+     "key": "compito",
+     "label": "Compito chiaro",
+     "weight": 2
+    },
+    {
+     "key": "formato",
+     "label": "Colonne definite",
+     "weight": 3
+    },
+    {
+     "key": "verifica",
+     "label": "Regola per dati mancanti / divieto di dedurre",
+     "weight": 3
+    },
+    {
+     "key": "input",
+     "label": "Input delimitato",
+     "weight": 2
+    }
+   ],
+   "required": [
+    [
+     "colonn",
+     "|",
+     "tabella"
+    ],
+    [
+     "n/d",
+     "mancant",
+     "non presente",
+     "non dedurre"
+    ],
+    [
+     "importo",
+     "durata",
+     "penal"
+    ]
+   ]
+  },
+  {
+   "slug": "es-spiegazione-studente",
+   "title": "Spiegazione per uno studente",
+   "level": "principiante",
+   "course": "prompt-efficaci",
+   "categories": [
+    "assistente",
+    "studio"
+   ],
+   "brief": "Fai spiegare a un assistente AI il concetto di inflazione a uno studente di 14 anni, con un esempio quotidiano e 3 domande di verifica finali. Scrivi il prompt e incolla la risposta.",
+   "rubric": [
+    {
+     "key": "contesto",
+     "label": "Destinatario e livello",
+     "weight": 3
+    },
+    {
+     "key": "compito",
+     "label": "Compito",
+     "weight": 2
+    },
+    {
+     "key": "formato",
+     "label": "Struttura richiesta",
+     "weight": 2
+    },
+    {
+     "key": "specifici",
+     "label": "Esempio e domande di verifica",
+     "weight": 3
+    }
+   ],
+   "required": [
+    [
+     "14",
+     "studente",
+     "ragazz"
+    ],
+    [
+     "esempio"
+    ],
+    [
+     "domand",
+     "verifica",
+     "quiz"
+    ]
+   ]
+  },
+  {
+   "slug": "es-immagine-poster",
+   "title": "Prompt per un poster",
+   "level": "intermedio",
+   "course": "contenuti-multimediali",
+   "categories": [
+    "immagini"
+   ],
+   "brief": "Crea il prompt per un poster di un festival del jazz all’aperto a Bologna, il 21 giugno, con la scritta \"Jazz sotto le stelle\". Specifica soggetto, stile, composizione, palette, formato e testo esatto.",
+   "rubric": [
+    {
+     "key": "soggetto",
+     "label": "Soggetto e ambientazione",
+     "weight": 3
+    },
+    {
+     "key": "stile",
+     "label": "Stile e palette",
+     "weight": 2
+    },
+    {
+     "key": "composizione",
+     "label": "Composizione e formato",
+     "weight": 2
+    },
+    {
+     "key": "testo",
+     "label": "Testo esatto tra virgolette",
+     "weight": 3
+    }
+   ],
+   "required": [
+    [
+     "\"jazz sotto le stelle\"",
+     "“jazz sotto le stelle”",
+     "'jazz sotto le stelle'"
+    ],
+    [
+     "stile",
+     "illustrazion",
+     "fotograf",
+     "vettorial",
+     "grafic"
+    ],
+    [
+     "vertical",
+     "orizzontal",
+     "formato",
+     ":"
+    ]
+   ]
+  },
+  {
+   "slug": "es-funzione-python",
+   "title": "Richiesta di codice con test",
+   "level": "intermedio",
+   "course": "programmare-con-ai",
+   "categories": [
+    "codice",
+    "assistente"
+   ],
+   "brief": "Scrivi un prompt per ottenere una funzione che valida un codice fiscale italiano (solo formato, non il carattere di controllo), con linguaggio e versione specificati, esempi di input validi e non validi e test automatici.",
+   "rubric": [
+    {
+     "key": "contesto",
+     "label": "Linguaggio, versione, librerie",
+     "weight": 3
+    },
+    {
+     "key": "compito",
+     "label": "Comportamento atteso",
+     "weight": 2
+    },
+    {
+     "key": "specifici",
+     "label": "Esempi di input/output",
+     "weight": 2
+    },
+    {
+     "key": "verifica",
+     "label": "Test richiesti",
+     "weight": 3
+    }
+   ],
+   "required": [
+    [
+     "python",
+     "javascript",
+     "typescript",
+     "java",
+     "php",
+     "c#",
+     "go"
+    ],
+    [
+     "test"
+    ],
+    [
+     "esempi",
+     "esempio",
+     "valido"
+    ]
+   ]
+  },
+  {
+   "slug": "es-confronto-ai",
+   "title": "Test comparativo tra due o più AI",
+   "level": "avanzato",
+   "course": "confrontare-scegliere",
+   "categories": [],
+   "brief": "Scegli un compito reale del tuo lavoro. Scrivi un unico prompt da inviare identico a due o più AI, poi riporta nel campo risultato: le AI usate (con piano), la data, i criteri di valutazione definiti prima e un giudizio motivato per ciascun criterio.",
+   "rubric": [
+    {
+     "key": "compito",
+     "label": "Prompt chiaro e riutilizzabile",
+     "weight": 3
+    },
+    {
+     "key": "criteri",
+     "label": "Criteri definiti prima",
+     "weight": 3
+    },
+    {
+     "key": "verifica",
+     "label": "Data, versione/piano registrati",
+     "weight": 2
+    },
+    {
+     "key": "specifici",
+     "label": "Giudizio motivato",
+     "weight": 2
+    }
+   ],
+   "required": [
+    [
+     "criteri",
+     "criterio"
+    ],
+    [
+     "data",
+     "2026",
+     "2027"
+    ],
+    [
+     "piano",
+     "versione",
+     "gratuit"
+    ]
+   ]
+  },
+  {
+   "slug": "es-ricerca-fonti",
+   "title": "Ricerca con fonti primarie",
+   "level": "intermedio",
+   "course": "ricerca-e-studio",
+   "categories": [
+    "ricerca",
+    "assistente"
+   ],
+   "brief": "Usa uno strumento con ricerca web per ricostruire le principali novità di un tema del tuo settore negli ultimi 12 mesi. Il prompt deve indicare periodo, ambito, tipo di fonti ammesse e formato. Nel risultato, indica quali fonti hai aperto e verificato.",
+   "rubric": [
+    {
+     "key": "compito",
+     "label": "Domanda con periodo e ambito",
+     "weight": 3
+    },
+    {
+     "key": "verifica",
+     "label": "Tipo di fonti e citazioni richieste",
+     "weight": 3
+    },
+    {
+     "key": "formato",
+     "label": "Formato",
+     "weight": 2
+    },
+    {
+     "key": "specifici",
+     "label": "Fonti verificate nel risultato",
+     "weight": 2
+    }
+   ],
+   "required": [
+    [
+     "mesi",
+     "2025",
+     "2026",
+     "periodo",
+     "ultimi"
+    ],
+    [
+     "fonti",
+     "fonte",
+     "link"
+    ],
+    [
+     "ufficial",
+     "istituzional",
+     "primari"
+    ]
+   ]
+  }
+ ],
+ "resources": [
+  {
+   "tool": "chatgpt",
+   "title": "Documentazione della piattaforma OpenAI",
+   "url": "https://platform.openai.com/docs",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "chatgpt",
+   "title": "OpenAI Academy",
+   "url": "https://academy.openai.com",
+   "type": "corso",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "chatgpt",
+   "title": "Centro assistenza di ChatGPT",
+   "url": "https://help.openai.com",
+   "type": "guida",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "claude",
+   "title": "Documentazione di Claude",
+   "url": "https://docs.claude.com",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "claude",
+   "title": "Anthropic Academy (corsi gratuiti)",
+   "url": "https://www.anthropic.com/learn",
+   "type": "corso",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "claude",
+   "title": "Guida al prompt engineering di Claude",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+   "type": "guida",
+   "level": "intermedio",
+   "topic": "prompting",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "claude",
+   "title": "Centro assistenza di Claude",
+   "url": "https://support.claude.com",
+   "type": "guida",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "gemini",
+   "title": "Documentazione Gemini API",
+   "url": "https://ai.google.dev/gemini-api/docs",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "gemini",
+   "title": "Strategie di prompt per Gemini",
+   "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+   "type": "guida",
+   "level": "intermedio",
+   "topic": "prompting",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "gemini",
+   "title": "Google AI Studio",
+   "url": "https://aistudio.google.com",
+   "type": "guida",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "copilot",
+   "title": "Documentazione Microsoft Copilot",
+   "url": "https://learn.microsoft.com/copilot/",
+   "type": "documentazione",
+   "level": "principiante",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "perplexity",
+   "title": "Documentazione API Perplexity",
+   "url": "https://docs.perplexity.ai",
+   "type": "documentazione",
+   "level": "avanzato",
+   "topic": "ricerca",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "deepseek",
+   "title": "Documentazione API DeepSeek",
+   "url": "https://api-docs.deepseek.com",
+   "type": "documentazione",
+   "level": "avanzato",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "grok",
+   "title": "Documentazione xAI",
+   "url": "https://docs.x.ai",
+   "type": "documentazione",
+   "level": "avanzato",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "mistral",
+   "title": "Documentazione Mistral AI",
+   "url": "https://docs.mistral.ai",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "meta-ai",
+   "title": "Documentazione dei modelli Llama",
+   "url": "https://www.llama.com/docs/overview/",
+   "type": "documentazione",
+   "level": "avanzato",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "notebooklm",
+   "title": "Centro assistenza NotebookLM",
+   "url": "https://support.google.com/notebooklm",
+   "type": "guida",
+   "level": "principiante",
+   "topic": "documenti-dati",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "cursor",
+   "title": "Documentazione di Cursor",
+   "url": "https://docs.cursor.com",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "codice",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "github-copilot",
+   "title": "Documentazione GitHub Copilot",
+   "url": "https://docs.github.com/copilot",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "codice",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "replit",
+   "title": "Documentazione di Replit",
+   "url": "https://docs.replit.com",
+   "type": "documentazione",
+   "level": "principiante",
+   "topic": "codice",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "midjourney",
+   "title": "Documentazione di Midjourney",
+   "url": "https://docs.midjourney.com",
+   "type": "documentazione",
+   "level": "principiante",
+   "topic": "creativita",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "runway",
+   "title": "Centro assistenza Runway",
+   "url": "https://help.runwayml.com",
+   "type": "guida",
+   "level": "principiante",
+   "topic": "creativita",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "elevenlabs",
+   "title": "Documentazione ElevenLabs",
+   "url": "https://elevenlabs.io/docs",
+   "type": "documentazione",
+   "level": "intermedio",
+   "topic": "creativita",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "suno",
+   "title": "Centro assistenza Suno",
+   "url": "https://help.suno.com",
+   "type": "guida",
+   "level": "principiante",
+   "topic": "creativita",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "hugging-face",
+   "title": "Corsi gratuiti di Hugging Face",
+   "url": "https://huggingface.co/learn",
+   "type": "corso",
+   "level": "intermedio",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  },
+  {
+   "tool": "hugging-face",
+   "title": "Documentazione Hugging Face",
+   "url": "https://huggingface.co/docs",
+   "type": "documentazione",
+   "level": "avanzato",
+   "topic": "fondamenti",
+   "free": true,
+   "official": true
+  }
+ ],
+ "feeds": [
+  {
+   "name": "OpenAI News",
+   "url": "https://openai.com/news/rss.xml",
+   "tools": [
+    "chatgpt"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "Google – blog AI",
+   "url": "https://blog.google/technology/ai/rss/",
+   "tools": [
+    "gemini",
+    "notebooklm"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "Google DeepMind – blog",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "tools": [
+    "gemini"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "Hugging Face – blog",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "tools": [
+    "hugging-face"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "GitHub Blog – AI & ML",
+   "url": "https://github.blog/ai-and-ml/feed/",
+   "tools": [
+    "github-copilot"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "Microsoft – AI Blog",
+   "url": "https://blogs.microsoft.com/ai/feed/",
+   "tools": [
+    "copilot"
+   ],
+   "tier": "ufficiale"
+  },
+  {
+   "name": "MIT News – Artificial intelligence",
+   "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+   "tools": [],
+   "tier": "istituzionale"
+  }
+ ],
+ "changelog": [],
+ "version": "34ba3c29be"
+}

@@ -1,0 +1,54 @@
+# Pubblica l'app "Atlante AI Studio" (cartella studio/) su GitHub Pages
+# ad ogni aggiornamento del ramo main che tocca l'app o i suoi contenuti.
+# Indirizzo: https://rupi7800-blip.github.io/atlante-ai/
+# Prima volta: Settings → Pages → Source: "GitHub Actions".
+name: Pubblica Atlante AI Studio
+
+on:
+  push:
+    branches: [main]
+    paths: ["studio/**", "server/seed/**", "scripts/genera-studio.mjs", ".github/workflows/studio-pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rigenera i contenuti dai dati della piattaforma
+        run: |
+          npm ci --omit=dev --ignore-scripts
+          npm run studio:contenuti
+          git diff --stat studio/contenuti.json || true
+
+      - name: Controlla i file dell'app
+        run: |
+          node --check studio/app.js
+          node --check studio/sw.js
+          node -e "JSON.parse(require('fs').readFileSync('studio/contenuti.json'))"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: studio
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
